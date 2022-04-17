@@ -11,7 +11,7 @@ import Cart from "./pages/cart";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/theJokerCompany">
       <div className="flex flex-col justify-between h-[100vh]">
         <Header />
         <Switch className="text-green-300">
