@@ -1023,12 +1023,12 @@ span + span {
  }
 
   .about-summary {
-    margin-top:-12em;
+    margin-top:-4em;
   }
 
   .about-individual {
-    margin-top: -7em;
-    margin-right: 7em;
+    margin-top: -2em;
+    margin-right: 2em;
   }
 
   .point3 {
@@ -1043,6 +1043,16 @@ span + span {
     height: 50vh;
     padding-top: 10vh;
   }
+ }
+
+ @media (min-width: 1800px) {
+   .about-summary {
+     margin-top: -17em;
+   }
+
+   .about-individual{
+     margin-top: -7em;
+   }
  }
 }
 
