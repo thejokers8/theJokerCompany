@@ -75,7 +75,7 @@ function Topics() {
           Contact Us
         </Link>
       </div>
-      <div className="w-3/6 flex flex-col items-center justify-center">
+      <div className="carousel-projects w-3/6 flex flex-col items-center justify-center">
         <div
           id="carouselDarkVariant"
           className="carousel-shadow mb-[2rem] animate-pulse carousel slide w-5/6 carousel-fade h-[400px] carousel-dark relative overflow-hidden"

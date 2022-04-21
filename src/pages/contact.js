@@ -64,16 +64,16 @@ function Contact() {
           </p>
           <div className="devices">
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
-              154 7788
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 316 673 5651
             </h3>
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
-              154 7788
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 310 728 2535
             </h3>
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
-              154 7788
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302 298 6010
+            </h3>
+            <h3 className="cellphone w-2/4">
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 319 653 2667
             </h3>
             <h3 className="email-contact w-3/4">
               <i className="animate-bounce ri-mail-fill text-red-400"></i>{" "}
