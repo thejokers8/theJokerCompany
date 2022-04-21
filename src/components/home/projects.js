@@ -35,16 +35,16 @@ function Projects() {
   ));
 
   const description = jokerProjects.map((elem) => (
-    <div key={elem.id} className="col-start-2 col-span-2 ">
+    <div key={elem.id} className="project-description col-start-2 col-span-2 ">
       <div className="collapse" id={`collapseProject${elem.id}`}>
-        <div className="block rounded-lg shadow-lg bg-white mb-3">
+        <div className=" rounded-lg shadow-lg bg-white mb-3">
           {elem.description}
         </div>
       </div>
     </div>
   ));
   return (
-    <div className="pb-12 bg-cover bg-[url(https://images.pexels.com/photos/7130548/pexels-photo-7130548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)]">
+    <div className="project-main pb-12 bg-cover bg-[url(https://images.pexels.com/photos/7130548/pexels-photo-7130548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)]">
       <div className="mb-6 py-10 ">
         <h1 className="title-projects mb-10 font-bold text-green-600 w-fit mx-auto">
           Projects

@@ -31,7 +31,7 @@ function About() {
         </p>
       </div>
 
-      <div className="about-individual flex justify-between items-center px-20 py-4">
+      <div className="about-individual flex justify-between items-center py-4">
         <div className="about-especific flex">
           <div className="Photos w-6/12 flex justify-center items-center about-joker">
             <JokersPhotos

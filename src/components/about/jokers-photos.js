@@ -31,7 +31,7 @@ function JokersPhotos({ jokerData, setMemberDescription }) {
       <div className="text-center">
         <img
           src={jokerData.image}
-          className="rounded-full w-40 h-40 object-cover mb-4 mx-auto shadow-lg"
+          className="joker-photo rounded-full w-40 h-40 object-cover mb-4 mx-auto shadow-lg"
           alt={jokerData.name}
         />
         <h5 className="text-xl title font-medium leading-tight mb-2">
