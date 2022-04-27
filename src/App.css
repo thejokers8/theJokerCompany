@@ -444,7 +444,7 @@ span + span {
   }
 
   .about-individual {
-    margin-top: -4em;
+    margin-top: -6em;
     margin-left: 5em;
     margin-right: 5em;
   }
@@ -769,6 +769,10 @@ span + span {
   .project-description {
     margin-left:0vw;
   }
+
+  .about-summary {
+    margin-top: 8.5em;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1049,10 +1053,6 @@ span + span {
    .about-summary {
      margin-top: -17em;
    }
-
-   .about-individual{
-     margin-top: -7em;
-   }
  }
 }
 
@@ -1069,6 +1069,24 @@ span + span {
   .service-image {
     height: 40vh;
     width: 100%;
+  }
+
+  .about-individual {
+    margin-top: -4em;
+  }
+
+  .about-summary {
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .about-individual {
+    margin-top: -8em;
+  }
+
+  .about-summary {
+    margin-top: 5em;
   }
 }
 
