@@ -4,31 +4,38 @@ import Skills from "../components/about/skills";
 import Contact from "../components/about/contact";
 import JokersPhotos from "../components/about/jokers-photos";
 import Description from "../components/about/decription";
+import AboutIntroduce from "../components/about/about-introduce";
+import AboutCompany from "../components/about/about-company";
 
 function About() {
   useEffect(() => {
     document.title = "About - The Joker Company";
   }, []);
 
+
   const [memberDescription, setMemberDescription] = useState([description[0]]);
+  const [slide, setSlide] = useState(0);
+
+  
+
+  function PrevSlide() {
+    if (slide > 0) setSlide(prev => prev - 1)
+    else setSlide(1)
+  }
+
+  function NextSlide() {
+    if (slide < 1) setSlide(prev => prev + 1)
+    else setSlide(0)
+  }
+
+  const pageAbout = slide === 0 ? <AboutIntroduce /> : <AboutCompany />
 
   return (
     <div className="App-about flex flex-col bg-gradient-to-r from-sky-800 via-slate-500 to-sky-900 point3">
       <div className="about-summary flex flex-col px-40 pt-20 pb-2 ">
-        {" "}
-        <h1 className="title-projects text-center font-bold pb-0 mb-5">
-          About us
-        </h1>
-        <p className="about-text text-center text-sm mx-auto w-3/4 border-b-4 border-gray-900 pb-12">
-          We created a <strong className="">multitask team</strong> with some IT
-          skills. Our prior background in biomedical sciences, electronic,
-          mechatronics and mechanics give us a widely open range of tools to
-          combine within our projects.{" "}
-          <strong className="">
-            We added web development skills beside our engineering knowledge to
-            setup, run, manage and advice projects all around the world.{" "}
-          </strong>
-        </p>
+        <button className="prev-slide" onClick={PrevSlide}> Prev </button>
+        <button className="next-slide" onClick={NextSlide}> Next </button>
+        {pageAbout}
       </div>
 
       <div className="about-individual flex justify-between items-center py-4">
