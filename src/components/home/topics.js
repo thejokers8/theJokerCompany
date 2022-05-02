@@ -61,7 +61,7 @@ function Topics() {
   );
 
   return (
-    <div className="topics flex overflow-hidden py-20 bg-cover bg-[url(https://images.pexels.com/photos/7130489/pexels-photo-7130489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)]">
+    <div className="topics flex overflow-hidden py-20 bg-cover bg-gradient-to-b from-indigo-900 to-indigo-100 ">
       <div className="arrow-content relative w-3/6 flex flex-col justify-center items-center">
         <div className="text-container w-3/4 arrow p-12 bg-[#518071]">
           <h1 className="text-goals">

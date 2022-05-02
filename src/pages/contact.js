@@ -41,7 +41,7 @@ function Contact() {
   return (
     <div className="App-contact w-screen text-center point3">
       <div className="contact-us flex flex-col justify-center pt-20">
-        <h1 className="text-3xl font-bold tracking-widest title-projects">
+        <h1 className=" font-bold tracking-widest title-projects">
           Contact Us
         </h1>
         <div className="contact-info flex w-fit items-center mx-auto border-b-4 border-gray-900">
@@ -55,7 +55,7 @@ function Contact() {
       </div>
       <div className="  point3 App-info items-center flex justify-between px-32 pt-16 pb-24">
         <div className="card w-5/12 p-2 flex flex-col justify-between">
-          <h1 className="text-4xl font-bold italic text-center title-projects">
+          <h1 className="font-bold italic text-center title-projects">
             Get a quote
           </h1>
           <p className="contact-message py-12 text-sm text-left">
@@ -121,9 +121,8 @@ function Contact() {
             />
 
             <button
-              className={`send border-none rounded-md py-2 bg-green-900 text-white mx-auto text-sm ${
-                isInvalid && "cursor-not-allowed opacity-50"
-              }`}
+              className={`send border-none rounded-md py-2 bg-green-900 text-white mx-auto text-sm ${isInvalid && "cursor-not-allowed opacity-50"
+                }`}
               type="submit"
             >
               Send

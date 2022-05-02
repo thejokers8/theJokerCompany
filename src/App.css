@@ -229,7 +229,7 @@ span + span {
     #35d200 75%,
     darkgreen 100%
   );
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   -webkit-text-stroke: 0.3px black;
   background-size: auto auto;
   background-clip: border-box;
@@ -242,7 +242,7 @@ span + span {
   animation: textclip 4s linear infinite;
   animation-direction: reverse;
   display: inline-block;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 @keyframes textclip {

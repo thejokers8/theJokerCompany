@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function JokerAbout() {
   // const video = useRef(null);
   return (
-    <div className="div relative w-full h-[90%] overflow-hidden">
+    <div className="div relative w-full h-screen overflow-hidden">
       <video
         src="https://mdbootstrap.com/img/video/Lines.mp4"
         type="video/mp4"
@@ -13,15 +13,15 @@ function JokerAbout() {
         className="clip w-full"
         autoPlay={true}
         muted="mute"
-        // onMouseEnter={() => {
-        //   video.current.play();
-        // }}
-        // onMouseLeave={() => video.current.pause()}
+      // onMouseEnter={() => {
+      //   video.current.play();
+      // }}
+      // onMouseLeave={() => video.current.pause()}
       ></video>
       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden">
         <div className="flex justify-center items-center h-full">
           <div className="text-green-300 text-center px-10 px-md-0 flex flex-col items-center">
-            <div className="content mb-[3em]">
+            <div className="content mb-[2em] text-2xl">
               <h2>TheJokerCompany</h2>
               <h2>TheJokerCompany</h2>
             </div>
@@ -40,7 +40,7 @@ function JokerAbout() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
