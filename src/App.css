@@ -25,10 +25,10 @@ body {
 }
 
 .prev-slide {
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
   position: absolute;
+  padding: 0.4em 0.7em;
+  font-size: 1.5rem;
   background-color: #35c94f;
   opacity: 0.6;
   border: none;
@@ -39,11 +39,11 @@ body {
 .next-slide {
   top: 50%;
   right: 5%;
-  width: 50px;
-  height: 50px;
+  padding: 0.4em 0.7em;
   border-radius: 50%;
   position: absolute;
   background-color: #35c94f;
+  font-size: 1.5rem;
   opacity: 0.6;
   border: none;
 }
@@ -1119,6 +1119,13 @@ span + span {
     padding: 30vh 0;
    }
 
+   @media(max-width: 2000px){
+     .prev-slide, .next-slide {
+       top: 40%;
+     }
+    }
+
+
  @media (min-width: 835px) {
   .App-about {
     height: 100vh;
@@ -1147,12 +1154,6 @@ span + span {
   }
  }
 
- @media (min-width: 1800px) {
-   .about-summary {
-     margin-top: -17em;
-   }
- }
-}
 
 @media (min-width: 1024px) {
   .service-container-cards {
@@ -1174,22 +1175,35 @@ span + span {
   }
 
   .about-summary {
-    margin-top: 3em;
+    margin-top: -10em;
   }
 }
 
+
 @media (min-width: 1300px) {
   .about-individual {
-    margin-top: -8em;
+    margin-top: -4em;
   }
 
   .about-summary {
-    margin-top: 2em;
+    margin-top: -2em;
   }
 }
 
 @media(min-width: 1700px){
   .App-about {
-    padding-top: 35vh;
+    padding-top: 5vh;
   }
+  
+  .about-individual{
+    margin-top: -10em;
+  }
+ 
+}
+
+@media (min-width: 1800px) {
+  .about-summary {
+    margin-top: -3em;
+  }
+}
 }

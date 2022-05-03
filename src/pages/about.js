@@ -33,8 +33,8 @@ function About() {
   return (
     <div className="App-about flex flex-col bg-gradient-to-r from-sky-800 via-slate-500 to-sky-900 point3">
       <div className="about-summary flex flex-col px-40 pt-20 pb-2 ">
-        <button className="prev-slide" onClick={PrevSlide}> Prev </button>
-        <button className="next-slide" onClick={NextSlide}> Next </button>
+        <button className="prev-slide animate-bounce" onClick={PrevSlide}> <i className="ri-arrow-left-fill"></i> </button>
+        <button className="next-slide animate-bounce" onClick={NextSlide}> <i className="ri-arrow-right-fill"></i> </button>
         {pageAbout}
       </div>
 

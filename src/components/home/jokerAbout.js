@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function JokerAbout() {
   // const video = useRef(null);
   return (
-    <div className="div relative w-full h-screen overflow-hidden">
+    <div className="div relative w-full overflow-hidden">
       <video
         src="https://mdbootstrap.com/img/video/Lines.mp4"
         type="video/mp4"
