@@ -33,7 +33,7 @@ export const description = [
     name: "Camilo Castrillon",
     career: "Biomedical Engineer",
     about:
-      "CEO in The Joker Company. As biomedical engineer anatomy and physiology are just two of my hobbies. I like sports, nature and technology and I try to mix those things with medicine and IA to create powerful software tools with nice interfaces that people could use easily. I like simplicity and saving time to spent it in important things so I let Python do tasks automation and the real heavy work. I really enjoy learning about neurolgy, even I've got MRI processing background with software tools like 3D Slicer, Freesurfer, FSL and my I want to go deepest in the biomedical images world. Also I'm working on IA and deep learning models deployment",
+      "CEO of the Joker Company. As biomedical engineer anatomy and physiology are just two of my hobbies. I like sports, nature and technology and I try to mix those things with medicine and IA to create powerful software tools with nice interfaces that people could use easily. I like simplicity and saving time to spent it in important things so I let Python do tasks automation and the real heavy work. I really enjoy learning about neurolgy, even I've got MRI processing background with software tools like 3D Slicer, Freesurfer, FSL and my I want to go deepest in the biomedical images world. Also I'm working on IA and deep learning models deployment",
     image: "./crew-images/camilo.jpeg",
     contact: "camilocastrillon10@gmail.com",
     repository: "https://github.com/ccastri",
@@ -62,7 +62,7 @@ export const description = [
     name: "Jose Avenia",
     career: "Mechanical Engineer",
     about:
-      "CEO in the Joker Company and Mechanical Engineer with practical experience in the field of Hydraulics and management of computational tools such as Solidworks, MATLAB and Scilab for mechanical design, programming and numerical simulation; acquired through the repair and manufacturing processes of hydraulic equipment (with a high emphasis on hydraulic cylinders) and my experience on my undergrate proffesional. At the same time, I like the programming, where I intend to use in the optimization of processes in general. I am currently focused on web development, specially in Frontend Develpment using React's library, TailwindCCS and Bootstrap",
+      "CEO of the Joker Company and Mechanical Engineer with practical experience in the field of Hydraulics and management of computational tools such as Solidworks, MATLAB and Scilab for mechanical design, programming and numerical simulation; acquired through the repair and manufacturing processes of hydraulic equipment (with a high emphasis on hydraulic cylinders) and my experience on my undergrate proffesional. At the same time, I like the programming, where I intend to use in the optimization of processes in general. I am currently focused on web development, specially in Frontend Develpment using React's library, TailwindCCS and Bootstrap",
     image: "./crew-images/jose.jpeg",
     contact: "joselau2120@gmail.com",
     skills: [
@@ -84,21 +84,20 @@ export const description = [
     name: "Jhon Quejada",
     career: "Mechatronics Engineer",
     about:
-      "Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Facilisi morbi tempus iaculis urna id. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Malesuada fames ac turpis egestas integer eget aliquet nibh. Mollis aliquam ut porttitor leo a diam. Justo laoreet sit amet cursus sit amet dictum sit. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus.",
-    image: "./crew-images/jhon.jpeg",
+      "CEO of the Joker Company. As a mechatronics engineer and artificial intelligence specialist, with experience gained in the development of machine learning models and deep learning using python as a base programming language and solid knowledge in the frontend area. Passionate about the world of information technology (IT), focused on the deployment, control, and versioning of software, focused on the integration of web development with artificial intelligence to create robust applications and meet the needs based on the advances of technology in our environment.",
+    image: "./crew-images/jhon.png",
     contact: "jhona.quejada@gmail.com",
-    skills: ["html", "css", "javascript", "python", "arduino"],
-  },
-
-  {
-    id: 5,
-    name: "Yan Murillo",
-    career: "Biomedical Engineer",
-    about:
-      "Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Massa id neque aliquam vestibulum morbi blandit cursus risus at. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Facilisi morbi tempus iaculis urna. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum.",
-    image: "./crew-images/yan.jpeg",
-    contact: "yanmurillo9812@gmail.com",
-    skills: ["python", "matlab"],
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "python",
+      "matlab",
+      "arduino",
+      "tensorflow",
+      "keras",
+      "solidworks",
+    ],
   },
 ];
 

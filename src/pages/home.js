@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import JokerAbout from "../components/home/jokerAbout";
-import Row from "../components/home/Row";
+import ProjectsCarrousel from "../components/home/ProjectsCarrousel";
 import Topics from "../components/home/topics";
-import Projects from "../components/home/projects";
 
 function Home() {
   useEffect(() => {
@@ -12,8 +11,7 @@ function Home() {
     <div className="App-home flex justify-between items-center ">
       <main className="w-full text-center">
         <JokerAbout />
-        <Row />
-        {/* <Projects /> */}
+        <ProjectsCarrousel />
         <Topics />
       </main>
     </div>
