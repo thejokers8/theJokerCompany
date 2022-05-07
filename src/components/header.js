@@ -7,7 +7,7 @@ function Header() {
   const [showNavBar, setShowNavBar] = useState(false);
 
   return (
-    <div className="header flex justify-between items-center p-6 bg-gray-900 text-green-600 z-10 ">
+    <div className="header flex justify-between items-center p-6 bg-gray-900 text-green-600 z-10">
       <div className="text-header text-xl font-bold">
         <p>
           <Link to="/">TheJokerCompany</Link>

@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 
 function JokerAbout() {
@@ -13,10 +12,10 @@ function JokerAbout() {
         className="clip w-full"
         autoPlay={true}
         muted="mute"
-      // onMouseEnter={() => {
-      //   video.current.play();
-      // }}
-      // onMouseLeave={() => video.current.pause()}
+        // onMouseEnter={() => {
+        //   video.current.play();
+        // }}
+        // onMouseLeave={() => video.current.pause()}
       ></video>
       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden">
         <div className="flex justify-center items-center h-full">
@@ -27,9 +26,10 @@ function JokerAbout() {
             </div>
             <h5 className="joker text-base font-semibold mb-6 w-3/6 uppercase tracking-wider animate-pulse">
               The Joker company is a Colombian startup conformed by a team of
-              Mechatronical, Biomedical and Mechanical Engineers interested in web development, AI and everything related to Information
-              technologies (IT). We would be pleased to help you to open digital channels of any
-              idea you have in mind.
+              Mechatronical, Biomedical and Mechanical Engineers interested in
+              web development, AI and everything related to Information
+              technologies (IT). We would be pleased to help you to open digital
+              channels of any idea you have in mind.
             </h5>
             <Link
               to="/contact"
@@ -40,7 +40,7 @@ function JokerAbout() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 

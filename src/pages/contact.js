@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import DynamicTxt from "../components/contact/DinamycText";
 
@@ -10,8 +10,6 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
-  // const form = useRef()
 
   const handleChange = (event) => {
     event.target.placeholder === "Name" && setName(event.target.value);
@@ -64,16 +62,20 @@ function Contact() {
           </p>
           <div className="devices">
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 316 673 5651
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 316
+              673 5651
             </h3>
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 310 728 2535
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 310
+              728 2535
             </h3>
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302 298 6010
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
+              298 6010
             </h3>
             <h3 className="cellphone w-2/4">
-              <i className="animate-bounce ri-phone-fill phone"></i> + 57 319 653 2667
+              <i className="animate-bounce ri-phone-fill phone"></i> + 57 319
+              653 2667
             </h3>
             <h3 className="email-contact w-3/4">
               <i className="animate-bounce ri-mail-fill text-red-400"></i>{" "}
@@ -121,8 +123,9 @@ function Contact() {
             />
 
             <button
-              className={`send border-none rounded-md py-2 bg-green-900 text-white mx-auto text-sm ${isInvalid && "cursor-not-allowed opacity-50"
-                }`}
+              className={`send border-none rounded-md py-2 bg-green-900 text-white mx-auto text-sm ${
+                isInvalid && "cursor-not-allowed opacity-50"
+              }`}
               type="submit"
             >
               Send

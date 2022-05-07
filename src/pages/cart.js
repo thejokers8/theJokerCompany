@@ -1,10 +1,10 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Context } from "../context";
 import CartItem from "../components/cart/CartItem";
+import PaymentButton from "../components/cart/paymentForm";
 
 function Cart() {
   const { allServices, emptyCart, cartItemsAmount } = useContext(Context);
-  const [order, setOrder] = useState("Place Order");
 
   const subtotal = allServices.map((item) => item.amount * item.price);
   const initialValue = 0;
@@ -16,19 +16,11 @@ function Cart() {
   const cartItemElements = allServices
     .filter((services) => services.amount > 0)
     .map((item) => <CartItem key={item.id} item={item} />);
-  console.log(cartItemsAmount);
-  const placeOrder = () => {
-    setOrder("Ordering...");
-    setTimeout(() => {
-      console.log("Order Placed");
-      setOrder("Place Order");
-      emptyCart();
-    }, 3000);
-  };
+  const cartItemsToBuy = allServices.filter((services) => services.amount > 0);
 
   return (
     <main
-      className={`cart-main flex flex-col justify-center mt-[5.7em] p-10 point3 ${
+      className={`cart-main flex flex-col justify-center mt-[5em] p-10 point3 ${
         cartItemsAmount === 0 && "h-[80vh]"
       }`}
     >
@@ -64,12 +56,7 @@ function Cart() {
         <div className="order-button">
           {cartItemElements.length > 0 ? (
             <div className="flex flex-col items-center">
-              <button
-                className="inline-block mt-8 mb-8 px-6 py-2.5 bg-gray-800 text-white font-medium text-md leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg hover:text-green-600 hover:scale-105 transition duration-150 ease-in-out w-fit opacity-50 hover:opacity-90"
-                onClick={placeOrder}
-              >
-                {order}
-              </button>
+              <PaymentButton amount={total} cartItemsToBuy={cartItemsToBuy} />
             </div>
           ) : (
             <p className="text-center text-2xl font-bold mb-4">

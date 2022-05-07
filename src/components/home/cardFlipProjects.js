@@ -1,6 +1,5 @@
 import ReactCardFlip from "react-card-flip";
 import React, { useState } from "react";
-import { nanoid } from "nanoid";
 
 function CardFlipProjects({ project }) {
   const [isFlipped, setIsFlipped] = useState(false);
