@@ -20,7 +20,7 @@ function JokerAbout() {
       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden">
         <div className="flex justify-center items-center h-full">
           <div className="text-green-300 text-center px-10 px-md-0 flex flex-col items-center">
-            <div className="content mb-[2em] text-2xl">
+            <div className="content mb-[2em] text-[1.5rem]">
               <h2>TheJokerCompany</h2>
               <h2>TheJokerCompany</h2>
             </div>

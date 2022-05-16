@@ -1,85 +1,145 @@
 export const jokerProjects = [
   {
     id: 0,
-    name: "alzheimer detector",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Quizzical",
+    image: "./projects-images/quizzical.png",
     description:
-      " Sometrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est d make up the content",
-    date: "Feb 23/2022",
+      " If you want to know what your level of knowledge, use this simple trivial App",
+    date: "December-21-2021",
+    repo: "https://github.com/cristhiandcl/quizzical",
+    previa: "https://cristhiandcl.github.io/quizzical/",
+    platforms: [
+      "react",
+      "css",
+      "javascript"
+    ]
   },
 
   {
     id: 1,
-    name: "joker app",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Spotify-songs-search-app",
+    image: "./projects-images/spotifyApp.png",
     description:
-      " Sis massa tincidunt dui ut ornare lectus sit amet. Facilisi morbi tempus iaculis urna id. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Malesuada fames ac turpis egestas integer eget aliquet nibh. Mollis aliquam ut porttitor leo a diam. Justo laoreet sit amet cursus sit amet dictum sit",
-    date: "Feb 29/2022",
+      " An app that you can find your favorites songs and listen them",
+    date: "March-13-2022",
+    repo: "https://github.com/cristhiandcl/spotify-songs-search-App",
+    previa: "https://cristhiandcl.github.io/spotify-songs-search-App/",
+    platforms: [
+      "react",
+      "css",
+      "javascript"
+    ],
   },
 
   {
     id: 2,
-    name: "quizzical",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Pokedex-app",
+    image: "./projects-images/pokedexApp.png",
     description:
-      " ipsum suspendisse ultrices gravida dictum fusce. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt. Facilisi morbi tempus iaculis urna. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan. Tristique et egestas quis ipsunt",
-    date: "Feb 12/2022",
+      "A simple version of a Pokedex, so, if you are a pokemon lover, try to use this app and find your favorites pokemon",
+    date: "May-02-2022",
+    repo: "https://github.com/cristhiandcl/pokedex-app",
+    previa: "https://cristhiandcl.github.io/pokedex-app/",
+    platforms: [
+      "react",
+      "css",
+      "javascript"
+    ],
   },
 
   {
     id: 3,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Api-for-APIS",
+    image: "./projects-images/apiForApis.png",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "If you want to check out whatever API that you need, you can do it between this App, just you need to use the check out the bar search to find your desire API ",
+    date: "December-04-2021",
+    repo: "https://github.com/cristhiandcl/apiForAPIs",
+    previa: "https://cristhiandcl.github.io/apiForApis/",
+    platforms: [
+      "react",
+      "css",
+      "javascript"
+    ],
   },
+
   {
     id: 4,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Pacman-game",
+    image: "./projects-images/pacman-game.png",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "If you want to pass a funny moment in your daily free time, you can enjoy to play this classical game, try it",
+    date: "May-15-2022",
+    repo: "https://github.com/jose-luis-2022/Classical-pacman",
+    previa: "https://jose-luis-2022.github.io/Classical-pacman/",
+    platforms: [
+      "javascript",
+      "css",
+      "html",
+    ]
   },
   {
     id: 5,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Snake-game",
+    image: "./projects-images/snake-game.png",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "Simple version of desktop to play a ones of the best games on the classical mobile games history",
+    date: "May-15-2022",
+    repo: "https://github.com/jose-luis-2022/Snake-game",
+    previa: "https://jose-luis-2022.github.io/Snake-game/",
+    platforms: [
+      "javascript",
+      "css",
+      "html",
+    ]
   },
   {
     id: 6,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Tenzies-game",
+    image: "./projects-images/tenzies-game.png",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "Virtual trivial game to distract your mind in your free times, dont doubt to probe it",
+    date: "December-21-2021",
+    repo:   "https://github.com/cristhiandcl/tenzies-game",
+    previa: "https://cristhiandcl.github.io/tenzies-game/",
+    platforms: [
+      "react",
+      "css",
+      "html",
+    ]
   },
   {
     id: 7,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Neflix-clone",
+    image: "https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "Virtual trivial game to distract your mind in your free times, dont doubt to probe it",
+    date: "April-24-2022",
+    repo:   "https://github.com/ccastri/netflix-clone-react",
+    previa: "",
+    platforms: [
+      "javascript",
+      "css",
+      "html",
+    ]
   },
   {
     id: 8,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+    name: "Who-wants-to-be-millionarie-game",
+    image: "https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
+      "Virtual trivial game where you will be able to probe your knowledge in differents topics",
+    date: "May-5-2022",
+    repo:   "https://github.com/ccastri/who-wants-to-be-a-millionaire",
+    previa: "",
+    platforms: [
+      "javascript",
+      "css",
+      "html",
+    ]
   },
-  {
-    id: 9,
-    name: "tenzies",
-    image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
-    description:
-      " Ssmod. Feugiat vivamus at augue eget arcu dictum varius duis. Magnis dis parturient montes nascetur. Elit ut aliquam purus sit amet luctus. Arcu felis bibendum ut tristique et egestas. Vitae turpis massa sed elementum tempus egestas sed sed risus. Scelerisque purus semper eget duison the card title and make up the contentsadasd",
-    date: "Feb 22/2022",
-  },
+
+  
+
+
 ];

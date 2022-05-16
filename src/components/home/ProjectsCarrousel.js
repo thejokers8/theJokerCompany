@@ -6,6 +6,7 @@ function ProjectsCarrousel() {
   const projects = jokerProjects.map((project) => (
     <>
       <CardFlipProjects project={project} />
+    
     </>
   ));
 

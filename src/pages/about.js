@@ -36,9 +36,10 @@ function About() {
         <button className="prev-slide animate-bounce" onClick={PrevSlide}> <i className="ri-arrow-left-fill"></i> </button>
         <button className="next-slide animate-bounce" onClick={NextSlide}> <i className="ri-arrow-right-fill"></i> </button>
         {pageAbout}
+        <h2 className="title-projects font-bold mt-14">Teamwork</h2>
       </div>
 
-      <div className="about-individual flex justify-between items-center py-4">
+      <div className="about-individual flex justify-between items-center mt-5">
         <div className="about-especific flex">
           <div className="Photos w-6/12 flex justify-center items-center about-joker">
             <JokersPhotos
@@ -51,6 +52,7 @@ function About() {
             <Contact contact={memberDescription[0]} />
             <Skills skills={memberDescription[0].skills} />
           </div>
+          
         </div>
       </div>
     </div>
