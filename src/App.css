@@ -24,6 +24,10 @@ body {
   width: 45%;
 }
 
+.subcategories {
+  display: flex;
+}
+
 .team-title {
   display: flex;
   flex-direction: column;
@@ -472,12 +476,6 @@ span + span {
     font-size: 2.3rem;
   }
 
-  .services-details {
-    border: 1px solid black;
-    height: 40vh;
-    padding: 1em 0.5em;
-  }
-
   .service-description {
     font-size: 0.7rem;
   }
@@ -514,16 +512,6 @@ span + span {
 }
 
 @media (max-width: 1023px) {
-  .service-container-cards {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 1em;
-    margin: 0 -3em;
-  }
-
-  .service-card {
-    grid-column: 1;
-  }
 
   .service-card-description {
     display: flex;
@@ -537,14 +525,6 @@ span + span {
   .service-card-description .text-description {
     font-size: 0.7rem;
   }
-
-  .service-image {
-    height: 40vh;
-    width: 100%;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-
  
 }
 
@@ -606,17 +586,6 @@ span + span {
   }
 }
 
-
-@media (max-width: 850px) {
-  .service-container-cards {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 0 1em;
-  }
-
-  .service-card {
-    grid-column: 1;
-  }
 
 @media (max-width: 840px) {
   .App-info {
@@ -1024,17 +993,6 @@ span + span {
     width: 50vw;
   }
 
-  .service-container-cards {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 1em 1em;
-  }
-
-  .service-card {
-    grid-column: 1;
-    margin: 1em 0;
-  }
-
   .joker-photo {
     width: 120px;
     height: 120px;
@@ -1106,14 +1064,6 @@ span + span {
       font-size: 0.89rem;
     }
 
-    .service-container-cards {
-      display: grid;
-      grid-template-columns: auto;
-    }
-
-    .service-card {
-      grid-column: 1;
-    }
 
     .project-description {
       font-size: 0.8rem;
@@ -1124,7 +1074,7 @@ span + span {
     }
 
   }
-}
+
 
 
 @media (max-height: 1000px){
@@ -1162,13 +1112,9 @@ span + span {
     width: 100vw;
   }
 
- 
 }
 
 @media (min-height: 400px) {
-  .service-card {
-    margin: 1em 0;
-  }
 
   .service-image {
     height: 60vh;
@@ -1176,9 +1122,6 @@ span + span {
 }
 
 @media (min-height: 600px) {
-  .service-card {
-    margin: 1em 0;
-  }
 
   .service-image {
     height: 35vh;
@@ -1213,9 +1156,21 @@ span + span {
 
 
 @media (min-height: 1000px) {
-  .service-card {
-    margin: 1.5em 0;
-  }
+
+    @media(min-width: 375px)
+    {
+      .service-card-turn {
+        height: 25vh;
+        width: 37vw;
+      }
+    }
+
+    @media(min-width: 1000px){
+      .service-card-turn {
+        width: 21vw;
+      }
+    }
+ 
 
   .service-image {
     height: 30vh;
@@ -1261,14 +1216,6 @@ span + span {
  }
 
 @media (min-width: 1024px) {
-  .service-container-cards {
-    display: grid;
-    grid-gap: 2em;
-  }
-
-  .service-card {
-    grid-column: 1;
-  }
 
   .service-image {
     height: 40vh;

@@ -24,20 +24,20 @@ function CardFlip({
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div
         onClick={handleClick}
-        className="service-card services-color-description h-80 hover:scale-105 hover:text-green-900 hover:rounded-[1rem] hover:font-extrabold tracking-wide"
+        className="mx-[1.4em] my-[1em] h-80 hover:scale-105 hover:text-green-900 hover:rounded-[10%] hover:font-extrabold tracking-wide"
       >
         <a href={href}>
-          <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
+          <div className="w-full h-[80%] aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
             <img
               src={imageSrc}
               alt={imageAlt}
-              className="service-image w-full h-full object-center object-cover"
+              className="w-full h-full  object-center object-cover"
             />
           </div>
           <div className="service-card-description flex mt-2 justify-between items-center px-3">
             <h3 className="text-title text-[0.9rem] font-bold">{name}</h3>
 
-            <p className="text-description text-[0.9rem] font-extrabold text-green-600">
+            <p className="text-description text-[0.7rem] font-extrabold text-green-600">
               {price.toLocaleString("es-CO", {
                 style: "currency",
                 currency: "COP",
@@ -49,15 +49,10 @@ function CardFlip({
       </div>
       <div>
         <div
-          className="services-details h-80 px-4 flex flex-col justify-between py-12 items-center w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center cursor-pointer"
+          className="service-card-turn h-[38vh] w-[15vw] mt-[-6%] px-4 flex flex-col justify-between py-12 items-center w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center cursor-pointer"
           onClick={handleClick}
         >
-          <p className="service-description">{description}</p>
-          <img
-            className="service-small-image rounded-full"
-            src={imageSrc}
-            width="100px"
-          />
+            <p className="service-description">{description}</p>
         </div>
         <div className=" flex items-center justify-center space-x-2 text-xl">
           <i

@@ -1,14 +1,12 @@
-import React, { useContext, useEffect } from "react";
-import { Context } from "../context";
-import CardFlip from "../components/services/cardFlip";
+import React, { useEffect } from "react";
+import { categories } from "../projects-categories";
+import CardServices from "../components/services/card-categories";
 import DynamicTxt from "../components/contact/DinamycText";
 
 function Services() {
   useEffect(() => {
     document.title = "Services - The Joker Company";
   }, []);
-
-  const { allServices } = useContext(Context);
 
   return (
     <div className="point1 pb-10">
@@ -30,18 +28,15 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="service-container-cards grid grid-cols-3 gap-x-6 ">
-          {allServices.map((product) => (
-            <CardFlip
-              id={product.id}
-              amount={product.amount}
-              key={product.id}
-              href={product.href}
-              imageAlt={product.imageAlt}
-              imageSrc={product.imageSrc}
-              name={product.name}
-              price={product.price}
-              description={product.description}
+        <div>
+          {categories.map((category) => (
+            <CardServices
+              id={category.category}
+              name={category.name}
+              key={category.category}
+              description={category.description}
+              image={category.image}
+              show={category.display}
             />
           ))}
         </div>
