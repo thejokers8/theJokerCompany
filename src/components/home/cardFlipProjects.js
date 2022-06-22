@@ -22,17 +22,17 @@ function CardFlipProjects({ project }) {
         <img
           src={project.image}
           alt={project.name}
-          className="rounded-3xl transition duration-400 hover:rounded-3xl hover:scale-105 hover:ease-in mx-auto sm:w-[450px] sm:h-[250px] cursor-pointer"
+          className="project-image rounded-3xl transition duration-400 hover:rounded-3xl hover:scale-105 hover:ease-in mx-auto sm:w-[400px] cursor-pointer"
         />
         <h2 className="title-project animate-pulse">{project.name}</h2>
       </div>
      
       <div
-        className="sm:h-[250px] sm:w-[450px] w-[320px]"
+        className="sm:h-[220px] sm:w-[400px] w-[290px]"
       >
         <div className="rounded-3xl shadow-lg bg-white h-full flex flex-col justify-items-center px-[4%] py-[10%]">
           <p className="text-[0.75rem]">{project.description}</p>
-          <div className="flex space-x-24 px-3">
+          <div className="flex space-x-24">
             <Platforms platform={project.platforms} date={project.date}/>
           </div>
           <button onClick={handleReturn} className="absolute bottom-[5%] right-[20%]">

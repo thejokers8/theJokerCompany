@@ -28,6 +28,10 @@ body {
   display: flex;
 }
 
+.project-image {
+  height: 220px;
+}
+
 .team-title {
   display: flex;
   flex-direction: column;
@@ -230,7 +234,7 @@ button:focus {
 .title-project {
   position: absolute;
   top: 10%;
-  left: 5%;
+  left: 7%;
   text-transform: uppercase;
   display: inline-block;
   font-size: 0.7rem;
@@ -486,6 +490,7 @@ span + span {
   }
 }
 
+
 @media (max-width: 1026px) {
   .about-company-plan {
     display: flex;
@@ -508,6 +513,13 @@ span + span {
     margin-bottom: 2em;
     margin-top: -2em;
     width: 80%;
+  }
+}
+
+@media(max-width: 1024px){
+  .service-card-turn {
+    width: 250px;
+    height: 300px;
   }
 }
 
@@ -917,6 +929,11 @@ span + span {
   .about-company-container {
     margin-top: 4em;
   }
+
+  .title-project {
+    top: 15%;
+    left: 20%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1075,6 +1092,14 @@ span + span {
 
   }
 
+  @media(max-width: 375px){
+    
+    .service-card-turn {
+      width: 240px;
+      height: 270px;
+    }
+  }
+
 
 
 @media (max-height: 1000px){
@@ -1106,6 +1131,15 @@ span + span {
 }
 
 /* media queries min-heigh */
+
+@media(min-width: 1026px){
+  .service-card-turn {
+    width: 210px;
+    height: 280px;
+    margin-right: 1.5em;
+  }
+
+}
 
 @media (min-width: 320px){
   .about-summary {
@@ -1157,17 +1191,18 @@ span + span {
 
 @media (min-height: 1000px) {
 
-    @media(min-width: 375px)
+    @media(min-width: 300px)
     {
       .service-card-turn {
-        height: 25vh;
-        width: 37vw;
+        height: 250px;
+        width: 260px;
       }
     }
 
     @media(min-width: 1000px){
       .service-card-turn {
-        width: 21vw;
+        width: 230px;
+        height: 280px;
       }
     }
  

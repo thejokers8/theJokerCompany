@@ -52,20 +52,20 @@ function CardServices({
 
   return (
     <div>
-        <div className="flex justify-between items-center my-[1em] p-[1em] hover:scale-[1.01] hover:duration-500 border-b-2 border-black">
+        <div className="flex justify-between items-center my-[1em] py-[1em] px-[0.1em] sm:px-[3em] hover:scale-[1.01] hover:duration-500 border-b-2 border-black">
             <button onClick={()=>handleShow(id)}>
                {appear ?
-               <i className="ri-indeterminate-circle-fill lg:text-[3em] sm:text-[2em] text-[2em] text-red-600 lg:ml-[1.5em] sm:ml-[0.5em] "> </i> :
-               <i className="ri-add-circle-fill lg:text-[3em] sm:text-[2em] text-[2em] text-green-600 lg:ml-[1.5em] sm:mñ-[0.5em]"> </i>
+               <i className="ri-indeterminate-circle-fill lg:text-[3em] sm:text-[2em] text-[2em] text-red-600 lg:ml-[1.5em] sm:ml-[0.1em] "> </i> :
+               <i className="ri-add-circle-fill lg:text-[3em] sm:text-[2em] text-[2em] text-green-600 lg:ml-[1.5em] sm:ml-[0.1em]"> </i>
                }
                </button>
             <div className="flex items-center justify-end">
               <img 
-                  className="w-[10vw] rounded-[10%] md:mr-[1em] sm:mr-[0.5em]"
+                  className="w-[20vw] sm:w-[10vw] rounded-[10%] sm:mr-[1em]"
                   src={image}
                   alt={name}
               />
-              <div className="text-center w-[80%]">
+              <div className="text-center w-[70%]">
                 <h1 className="lg:text-[1.5rem] md:text-[1rem] sm:text-[0.9rem] font-bold animate-pulse text-teal-800 ">{name}</h1>
                 <p className="md:text-[0.75rem] sm:text-[0.6rem] text-[0.6rem]">{description}</p>
               </div>

@@ -15,11 +15,13 @@ function PlatformsProjects({ platform, date}) {
   ));
 
   return (
-    <div className="ml-[70%] my-5">
+    <div className="ml-[50%] my-5 w-[300px]">
+      <div className="flex justify-end">
         <p 
-            className="text-[0.7rem] font-semibold uppercase">
+            className="text-[0.7rem] font-semibold">
             {date}
         </p>
+      </div>
       <div className="image-icon flex flex-wrap my-2">
           {renderPlatforms}
       </div>

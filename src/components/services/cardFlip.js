@@ -24,7 +24,7 @@ function CardFlip({
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div
         onClick={handleClick}
-        className="mx-[1.4em] my-[1em] h-80 hover:scale-105 hover:text-green-900 hover:rounded-[10%] hover:font-extrabold tracking-wide"
+        className="mx-[1.4em] h-80 hover:scale-105 hover:text-green-900 hover:rounded-[10%] hover:font-extrabold tracking-wide"
       >
         <a href={href}>
           <div className="w-full h-[80%] aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
