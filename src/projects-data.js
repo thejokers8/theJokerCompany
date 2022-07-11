@@ -111,12 +111,12 @@ export const jokerProjects = [
   {
     id: 7,
     name: "Neflix-clone",
-    image: "https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    image: "./projects-images/Netflix-clone.png",
     description:
       "Virtual trivial game to distract your mind in your free times, dont doubt to probe it",
     date: "April-24-2022",
     repo:   "https://github.com/ccastri/netflix-clone-react",
-    previa: "",
+    previa: "https://jokflix-clone.web.app/",
     platforms: [
       "javascript",
       "css",
@@ -138,8 +138,4 @@ export const jokerProjects = [
       "html",
     ]
   },
-
-  
-
-
 ];

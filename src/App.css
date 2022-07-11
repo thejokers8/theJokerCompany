@@ -12,16 +12,34 @@ body {
   padding-top: 5em;
 }
 
+.content-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-title {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+::-webkit-scrollbar {
+  display:none
+}
+
+
 .about-summary {
   width: 50vw;
 }
 
 .about-mision {
-  width: 55%;
+  width: 50%;
 }
 
 .about-vision {
-  width: 45%;
+  width: 50%;
 }
 
 .subcategories {
@@ -42,7 +60,7 @@ body {
 .prev-slide {
   border-radius: 50%;
   position: absolute;
-  padding: 0.4em 0.7em;
+  padding: 0.2em 0.5em;
   font-size: 1.5rem;
   background-color: #35c94f;
   opacity: 0.6;
@@ -54,7 +72,7 @@ body {
 .next-slide {
   top: 50%;
   right: 5%;
-  padding: 0.4em 0.7em;
+  padding: 0.2em 0.5em;
   border-radius: 50%;
   position: absolute;
   background-color: #35c94f;
@@ -496,6 +514,7 @@ span + span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
 
   .mision {
@@ -513,13 +532,6 @@ span + span {
     margin-bottom: 2em;
     margin-top: -2em;
     width: 80%;
-  }
-}
-
-@media(max-width: 1024px){
-  .service-card-turn {
-    width: 250px;
-    height: 300px;
   }
 }
 
@@ -822,6 +834,7 @@ span + span {
 
   .about-company-container {
     margin-top: 4em;
+    margin-bottom: -2em;
   }
 
 }
@@ -1092,16 +1105,6 @@ span + span {
 
   }
 
-  @media(max-width: 375px){
-    
-    .service-card-turn {
-      width: 240px;
-      height: 270px;
-    }
-  }
-
-
-
 @media (max-height: 1000px){
   @media(max-width: 2000px){
     .about-individual{
@@ -1132,20 +1135,15 @@ span + span {
 
 /* media queries min-heigh */
 
-@media(min-width: 1026px){
-  .service-card-turn {
-    width: 210px;
-    height: 280px;
-    margin-right: 1.5em;
-  }
-
-}
-
 @media (min-width: 320px){
   .about-summary {
     width: 100vw;
   }
 
+  .service-card-turn {
+    width: 15rem;
+    height: 18rem;
+  }
 }
 
 @media (min-height: 400px) {
@@ -1190,22 +1188,6 @@ span + span {
 
 
 @media (min-height: 1000px) {
-
-    @media(min-width: 300px)
-    {
-      .service-card-turn {
-        height: 250px;
-        width: 260px;
-      }
-    }
-
-    @media(min-width: 1000px){
-      .service-card-turn {
-        width: 230px;
-        height: 280px;
-      }
-    }
- 
 
   .service-image {
     height: 30vh;

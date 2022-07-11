@@ -2,293 +2,268 @@ export const products = [
   {
     id: 1,
     category: 0,
-    name: "AI development",
+    name: "Landing Pages",
     description:
-      "We know a lot about smart systems design and construction. We use Python as our main developing tool so we can create and deploy machine learning algorithms and neural networks to do data processing and prediction algorithms",
+    <div className="content-service pt-6 pb-10 px-6">
+      <h2 className="content-title">What Includes? </h2>
+        <div className="text-left mb-10 text-[0.8rem] mt-10">
+          <p className="mb-[0.5em]">▶ Page's Design</p>
+          <p className="mb-[0.5em]">▶ Page's Hosting</p>
+          <p className="mb-[0.5em]">▶ Page's Domain</p>
+        </div>
+    </div>,
     href: "#",
-    price: 70000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt: "AI based development.",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_960_720.jpg",
+    imageAlt: "Landing Pages"
   },
 
   {
     id: 2,
     category: 0,
-    name: "AI development",
+    name: "Full FrontEnd UI/UX Interface",
     description:
-      "We know a lot about smart systems design and construction. We use Python as our main developing tool so we can create and deploy machine learning algorithms and neural networks to do data processing and prediction algorithms",
+    <div className="content-service pt-6 pb-10 px-6">
+      <h2 className="content-title">What Includes?</h2>
+      <div className="text-left mb-5 mt-10 text-[0.8rem]">
+        <p className="mb-[0.5em]">▶ Page's Applications</p>
+        <p className="mb-[0.5em]">▶ Figma Design</p>
+        <p className="mb-[0.5em]">▶ React App</p>
+     </div>
+     <p className="text-[0.7rem] italic text-justify mb-3 text-cyan-600">This pack includes maximum 13 components in React</p>
+    </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt: "AI based development.",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2016/08/27/12/06/website-1624028_960_720.png",
+    imageAlt: "Full FrontEnd"
   },
 
   {
     id: 3,
     category: 0,
-    name: "AI development",
+    name: "Interface + Firebase/MongoDB Managment",
     description:
-      "We know a lot about smart systems design and construction. We use Python as our main developing tool so we can create and deploy machine learning algorithms and neural networks to do data processing and prediction algorithms",
+     <div className="px-6 pt-6 overflow-y-scroll h-[75%] mt-3">
+      <h2 className="text-[0.9rem] font-[800] mb-5">What Includes?</h2>
+      <div className="text-left mb-1 text-[0.8rem]">
+        <p className="mb-[0.5em]">▶ Web Applications + Users Database Managment</p>
+        <p className="mb-[0.5em]">▶ Information Updates in real time</p>
+        <p className="mb-[0.5em]">▶ Interactions between users</p>
+        <p className="mb-[0.5em]">▶ Reactive Website</p>
+        <p className="mb-[0.5em]">▶ Single / Multiple Websites Applications</p>
+      </div>
+        <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-[0.5em]">3 pages with 5 components on each one (additional component 35USD)</p>
+        <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-[0.5em]">3 mounths maintenance giftcard</p>
+        <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-3">3 mounths maintenance + 20% off by getting a technical support coverage per one year</p>
+    </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt: "AI based development.",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2018/07/25/18/36/ecommerce-3562005_960_720.jpg",
+    imageAlt: "Interface + Firebase/MongoDB"
   },
 
   {
     id: 4,
-    category: 0,
-    name: "AI development",
+    category: 1,
+    name: "Development",
     description:
-      "We know a lot about smart systems design and construction. We use Python as our main developing tool so we can create and deploy machine learning algorithms and neural networks to do data processing and prediction algorithms",
+      <div className="flex flex-col justify-center px-6">
+        <h2 className="content-title mt-[-2em]">What includes?</h2>
+        <div className="mt-[2em] text-left text-[0.8rem]">
+          <p className="mb-[1em]">▶ Creation a Machine Learning Algorithms</p>
+          <p className="mb-[2em]">▶ Delivery the model's code to user</p>
+        </div>
+      </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt: "AI based development.",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2019/03/26/10/46/artificial-4082314_960_720.jpg",
+    imageAlt: "Development"
   },
 
   {
     id: 5,
-    category: 0,
-    name: "Web development",
-    description: `We're glad to adding value on your bussines. Let's get started and open your digital channels.
-       A website to centralize and digitalize information is a good feature you should be consider. Don't be stuck in the past, digital bussines are the future`,
+    category: 1,
+    name: "Deployment",
+    description: 
+    <div className="flex flex-col justify-center px-6">
+        <h2 className="content-title mt-[-2em]">What includes?</h2>
+          <div className="mt-[2em] mb-[2em] text-left text-[0.8rem]">
+            <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
+            <p>▶ Deployment of the model's code in a basic interface or a embedded app</p>
+          </div>
+          <p className="text-[0.7rem] text-justify italic text-cyan-600">Note: it could have improvements on the final interface</p>
+      </div>,
     href: "#",
-    price: 100000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "https://cdn.pixabay.com/photo/2014/04/05/09/30/tablet-314153_960_720.png",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-    amount: 0,
+      "Deployment",
   },
 
   {
     id: 6,
     category: 1,
-    name: "Web development",
-    description: `We're glad to adding value on your bussines. Let's get started and open your digital channels.
-       A website to centralize and digitalize information is a good feature you should be consider. Don't be stuck in the past, digital bussines are the future`,
+    name: "Full Package",
+    description: 
+    <div className="flex flex-col justify-center px-6">
+        <h2 className="content-title mt-[-2em]">What includes?</h2>
+        <div className="mt-[2em] mb-[2em] text-left ml-[1em] text-[0.8rem]" >
+          <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
+          <p className="mb-[0.5em]">▶ Deployment of the model's code in a basic interface or a embedded app</p>
+          <p>▶ Interface Design according to customer request</p>
+        </div>
+      </div>,
     href: "#",
-    price: 100000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_960_720.jpg",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-    amount: 0,
+      "Full Package"
   },
 
   {
     id: 7,
-    category: 1,
-    name: "Web development",
-    description: `We're glad to adding value on your bussines. Let's get started and open your digital channels.
-       A website to centralize and digitalize information is a good feature you should be consider. Don't be stuck in the past, digital bussines are the future`,
+    category: 2,
+    name: "Anatomy",
+    description:
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 100000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "https://cdn.pixabay.com/photo/2013/07/12/17/15/vitruvian-man-151866_960_720.png",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-    amount: 0,
+      "Anatomy"
   },
 
   {
     id: 8,
-    category: 1,
-    name: "Web development",
-    description: `We're glad to adding value on your bussines. Let's get started and open your digital channels.
-       A website to centralize and digitalize information is a good feature you should be consider. Don't be stuck in the past, digital bussines are the future`,
+    category: 2,
+    name: "Physiology",
+    description:
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 100000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
-    amount: 0,
+      "Physiology"
   },
 
 
   {
     id: 9,
     category: 2,
-    name: "3D-CAD",
-    description:
-      "AutoCad, SolidWorks, Fresurfer, OpenCV and 3DSlicer are just a few tools we got to become your projects in real. Computer vision allows us 3D modeling to provide solutions in medical and mechanical industry",
+    name: "Management of medical image processing software",
+    description: 
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 40000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-    amount: 0,
+      "Medical image"
   },
 
   {
     id: 10,
     category: 2,
-    name: "3D-CAD",
-    description:
-      "AutoCad, SolidWorks, Fresurfer, OpenCV and 3DSlicer are just a few tools we got to become your projects in real. Computer vision allows us 3D modeling to provide solutions in medical and mechanical industry",
+    name: "Neurology",
+    description: 
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 40000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "https://cdn.pixabay.com/photo/2014/11/01/18/21/brain-512758_960_720.png",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-    amount: 0,
+      "Neurology"
   },
 
   {
     id: 11,
     category: 2,
-    name: "3D-CAD",
+    name: "JavaScript",
     description:
-      "AutoCad, SolidWorks, Fresurfer, OpenCV and 3DSlicer are just a few tools we got to become your projects in real. Computer vision allows us 3D modeling to provide solutions in medical and mechanical industry",
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+    </div>,
     href: "#",
-    price: 40000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736401_960_720.png",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-    amount: 0,
+      "Javascript"
   },
 
   {
     id: 12,
     category: 2,
-    name: "3D-CAD",
-    description:
-      "AutoCad, SolidWorks, Fresurfer, OpenCV and 3DSlicer are just a few tools we got to become your projects in real. Computer vision allows us 3D modeling to provide solutions in medical and mechanical industry",
+    name: "React",
+    description: 
+      <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 40000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-    amount: 0,
+      "React"
   },
 
   {
     id: 13,
-    category: 3,
-    name: "Industrial Automation",
+    category: 2,
+    name: "Python",
     description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
+    <div className="flex items-center px-3">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
+      "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
+    imageAlt: "Python" 
   },
 
   {
     id: 14,
-    category: 3,
+    category: 2,
     name: "Industrial Automation",
     description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg",
+    imageAlt: "Industrial Automation"
   },
 
   {
     id: 15,
-    category: 3,
-    name: "Industrial Automation",
-    description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
+    category: 2,
+    name: "Thermodynamics",
+    description: 
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project or problem clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
+      "https://images.unsplash.com/photo-1607618997685-1732ff49e816?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    imageAlt: "Thermodynamics"
   },
 
   {
     id: 16,
-    category: 3,
-    name: "Industrial Automation",
+    category: 2,
+    name: "Hydraulics Machine",
     description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project or problem clicking on the next button</h2>
+      </div>,
     href: "#",
-    price: 60000,
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
+      "https://cdn.pixabay.com/photo/2013/01/16/16/53/turbine-75105_960_720.jpg",
+    imageAlt: "Hydrulic Machine"
   },
-
-  
-  {
-    id: 17,
-    category: 4,
-    name: "Industrial Automation",
-    description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
-    href: "#",
-    price: 60000,
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
-  },
-
-  
-  {
-    id: 18,
-    category: 4,
-    name: "Industrial Automation",
-    description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
-    href: "#",
-    price: 60000,
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
-  },
-
-  
-  {
-    id: 19,
-    category: 4,
-    name: "Industrial Automation",
-    description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
-    href: "#",
-    price: 60000,
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
-  },
-
-  
-  {
-    id: 20,
-    category: 4,
-    name: "Industrial Automation",
-    description:
-      "Python is one of the most popular programming lenguajes right now. It's a usefull tool that you can use to improve the supply chain on your bussines, help your employees in management tasks, oprimization and prediction",
-    href: "#",
-    price: 60000,
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt: "Automation",
-    amount: 0,
-  }
 ];

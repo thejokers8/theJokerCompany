@@ -1,18 +1,14 @@
 import ReactCardFlip from "react-card-flip";
 import React, { useContext, useState } from "react";
-import { Context } from "../../context";
+import { Link } from "react-router-dom"
 
 function CardFlip({
-  amount,
-  id,
   href,
   imageAlt,
   imageSrc,
   name,
-  price,
   description,
 }) {
-  const { addToCart, removeFromCart } = useContext(Context);
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = (e) => {
@@ -24,49 +20,35 @@ function CardFlip({
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div
         onClick={handleClick}
-        className="mx-[1.4em] h-80 hover:scale-105 hover:text-green-900 hover:rounded-[10%] hover:font-extrabold tracking-wide"
+        className="mx-[2em] w-[15rem] h-[18rem] text-center hover:scale-105 hover:text-green-900 hover:rounded-[10%] hover:font-extrabold tracking-wide"
       >
         <a href={href}>
-          <div className="w-full h-[80%] aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
+          <div className="w-full h-[90%] aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
             <img
               src={imageSrc}
               alt={imageAlt}
-              className="w-full h-full  object-center object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
-          <div className="service-card-description flex mt-2 justify-between items-center px-3">
-            <h3 className="text-title text-[0.9rem] font-bold">{name}</h3>
-
-            <p className="text-description text-[0.7rem] font-extrabold text-green-600">
-              {price.toLocaleString("es-CO", {
-                style: "currency",
-                currency: "COP",
-                currencyDisplay: "code",
-              })}
-            </p>
-          </div>
+          <h3 className="text-title text-[0.9rem] mt-[0.4rem] font-bold">{name}</h3>
         </a>
       </div>
-      <div>
-        <div
-          className="service-card-turn h-[38vh] w-[15vw] mt-[-6%] px-4 flex flex-col justify-between py-12 items-center w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center cursor-pointer"
-          onClick={handleClick}
+      <div
+          className="service-card-turn border-2 border-black flex w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center"
         >
-            <p className="service-description">{description}</p>
-        </div>
-        <div className=" flex items-center justify-center space-x-2 text-xl">
-          <i
-            onClick={() => removeFromCart(id)}
-            className="ri-indeterminate-circle-line cursor-pointer hover:scale-110"
-          ></i>
-          <div className="font-extrabold">
-            {amount} {amount <= 1 ? "H" : "Hrs"}
-          </div>
-          <i
-            onClick={() => addToCart(id)}
-            className="ri-add-circle-line cursor-pointer hover:scale-110"
-          ></i>
-        </div>
+            {description}
+            <button onClick={handleClick} className="absolute bottom-[7%] left-[15%]">
+            <i 
+              className="ri-arrow-go-back-line text-[1rem] font-bold">
+            </i>
+            </button>
+            <div className="absolute bottom-5 right-6">
+              <button 
+                  className="py-[5px] px-[10px] text-[0.8rem] rounded-md right-5 bg-green-400 font-bold animate-bounce"
+                  title=""
+                ><Link to="/contact">REQUESTED HERE! </Link>
+              </button>
+           </div>
       </div>
     </ReactCardFlip>
   );
