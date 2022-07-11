@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/theJokerCompany/static/css/main.6e26c585.css",
-    "main.js": "/theJokerCompany/static/js/main.00c6f3dd.js",
+    "main.css": "/theJokerCompany/static/css/main.8a427751.css",
+    "main.js": "/theJokerCompany/static/js/main.01dfd0ed.js",
     "static/media/web-development-collage.png": "/theJokerCompany/static/media/web-development-collage.d7477337c915376e48b5.png",
     "index.html": "/theJokerCompany/index.html",
-    "main.6e26c585.css.map": "/theJokerCompany/static/css/main.6e26c585.css.map",
-    "main.00c6f3dd.js.map": "/theJokerCompany/static/js/main.00c6f3dd.js.map"
+    "main.8a427751.css.map": "/theJokerCompany/static/css/main.8a427751.css.map",
+    "main.01dfd0ed.js.map": "/theJokerCompany/static/js/main.01dfd0ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e26c585.css",
-    "static/js/main.00c6f3dd.js"
+    "static/css/main.8a427751.css",
+    "static/js/main.01dfd0ed.js"
   ]
 }
