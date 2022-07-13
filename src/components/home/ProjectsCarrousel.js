@@ -16,7 +16,7 @@ function ProjectsCarrousel() {
         <h1 className="title-projects mb-4 font-bold text-green-600 w-fit mx-auto">
           Projects
         </h1>
-        <p className="text-projects text-base animate-bounce duration-700 w-4/6 text-center mx-auto ">
+        <p className="text-projects text-base animate-bounce duration-700 w-4/6 text-center mx-auto mt-10 ">
           Our experience as developers has been summarized in our web portfolio.
           Bellow you'll see some examples of previous designs. Feel free to
           spent time checking out what we did, what we're currently doing and

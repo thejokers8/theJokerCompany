@@ -1,20 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { description } from "../../jokers-data";
 
-function JokersPhotos({ jokerData, setMemberDescription }) {
-  const [changeMember, setChangeMember] = useState(1);
-
-  function prevMember() {
-    changeMember > 1
-      ? setChangeMember(changeMember - 1)
-      : setChangeMember(description.length);
-  }
-
-  function nextMember() {
-    changeMember <= description.length - 1
-      ? setChangeMember(changeMember + 1)
-      : setChangeMember(1);
-  }
+function JokersPhotos({ jokerData, setMemberDescription, changeMember }) {
 
   useEffect(() => {
     setMemberDescription(
@@ -24,10 +11,6 @@ function JokersPhotos({ jokerData, setMemberDescription }) {
 
   return (
     <>
-      <button onClick={prevMember} className="prev animate-bounce">
-        {" "}
-        <i className="ri-arrow-left-s-line"></i>{" "}
-      </button>
       <div className="text-center">
         <img
           src={jokerData.image}
@@ -39,10 +22,7 @@ function JokersPhotos({ jokerData, setMemberDescription }) {
         </h5>
         <p className="title text-green-600">{jokerData.career}</p>
       </div>
-      <button onClick={nextMember} className="next animate-bounce">
-        {" "}
-        <i className="ri-arrow-right-s-line"></i>{" "}
-      </button>
+     
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react"
 
 function AboutIntroduce () {
     return(
-            <div className="about-introduce flex flex-col px-40 pt-20 pb-2 ">
+            <div className="about-introduce mt-[-5em] flex flex-col px-20 pt-20 pb-2 ">
                     {" "}
                     <h1 className="title-projects text-center font-bold pb-0 mb-5">
                         About us

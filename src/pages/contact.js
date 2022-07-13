@@ -51,7 +51,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="  point3 App-info items-center flex justify-between px-32 pt-16 pb-24">
+      <div className=" point3 App-info items-center flex justify-between px-32 pt-16 pb-32">
         <div className="card w-5/12 p-2 flex flex-col justify-between">
           <h1 className="font-bold italic text-center title-projects">
             Get a quote
@@ -61,23 +61,23 @@ function Contact() {
             possible.
           </p>
           <div className="devices">
-            <h3 className="cellphone w-2/4">
+            <h3 className="cellphone w-[20vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 316
               673 5651
             </h3>
-            <h3 className="cellphone w-2/4">
+            <h3 className="cellphone w-[20vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 310
               728 2535
             </h3>
-            <h3 className="cellphone w-2/4">
+            <h3 className="cellphone w-[20vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
               298 6010
             </h3>
-            <h3 className="cellphone w-2/4">
+            <h3 className="cellphone w-[20vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 319
               653 2667
             </h3>
-            <h3 className="email-contact w-3/4">
+            <h3 className="email-contact w-[20vw]">
               <i className="animate-bounce ri-mail-fill text-red-400"></i>{" "}
               thejokercompany8@gmail.com
             </h3>
@@ -86,7 +86,7 @@ function Contact() {
 
         <div className="Form w-1/2 h-3/6 rounded-2xl p-10 flex flex-col round-bg text-green-900">
           <form
-            className="flex flex-col space-y-3 "
+            className="flex flex-col space-y-3 h-[70vh] justify-between "
             onSubmit={handleSend}
             type="text"
             action="#"

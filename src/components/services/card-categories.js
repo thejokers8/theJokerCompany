@@ -56,15 +56,17 @@ function CardServices({
                <i className="ri-add-circle-fill lg:text-[3em] sm:text-[2em] text-[2em] text-green-600 lg:ml-[1.5em] sm:ml-[0.1em]"> </i>
                }
                </button>
-            <div className="flex items-center w-[50%] justify-between">
-              <img 
-                  className="w-[20vw] sm:w-[10vw] rounded-[10%] sm:mr-[1em]"
+            <div className="flex">
+            <div className="flex items-center justify-between">
+              <div className="flex flex-col text-center w-[200px]">
+                <h1 className="lg:text-[1.5rem] md:text-[1rem] sm:text-[0.9rem] font-bold animate-pulse text-teal-800 ">{name}</h1>
+              </div>
+            </div>
+            <img 
+                  className="w-[20vw] ml-5 sm:w-[10vw] rounded-[10%]"
                   src={image}
                   alt={name}
               />
-              <div className="flex flex-col text-center w-[65%]">
-                <h1 className="lg:text-[1.5rem] md:text-[1rem] sm:text-[0.9rem] font-bold animate-pulse text-teal-800 ">{name}</h1>
-              </div>
             </div>
         </div>
         <div className="p-[1em]" style={appear ? show : hide}>
