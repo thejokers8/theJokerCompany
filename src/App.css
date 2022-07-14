@@ -877,6 +877,12 @@ span + span {
   }
 }
 
+@media(max-width: 645px){
+  .name-container {
+    margin-left: 3em;
+  }
+}
+
 @media (max-width: 640px) {
   .header {
     display: flex;

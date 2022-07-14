@@ -126,7 +126,7 @@ export const products = [
     name: "Anatomy",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -141,7 +141,7 @@ export const products = [
     name: "Physiology",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -157,7 +157,7 @@ export const products = [
     name: "Management of medical image processing software",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -172,7 +172,7 @@ export const products = [
     name: "Neurology",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -187,7 +187,7 @@ export const products = [
     name: "JavaScript",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
     </div>,
     href: "#",
     imageSrc:
@@ -202,7 +202,7 @@ export const products = [
     name: "React",
     description: 
       <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -217,7 +217,7 @@ export const products = [
     name: "Python",
     description:
     <div className="flex items-center px-3">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -231,7 +231,7 @@ export const products = [
     name: "Industrial Automation",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -245,7 +245,7 @@ export const products = [
     name: "Thermodynamics",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project or problem clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project or problem clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -259,7 +259,7 @@ export const products = [
     name: "Hydraulics Machine",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-5">Tell us what is your project or problem clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project or problem clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:

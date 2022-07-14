@@ -19,7 +19,7 @@ function CardFlipProjects({ project }) {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div onClick={handleClick} className="w-[450px] p-[1em]">
-        <div className="w-[100%] text-left mb-[-2.5em] pl-5">
+        <div className="name-container w-[100%] text-left mb-[-2.5em] pl-5">
           <h2 className="title-project text-left animate-pulse">{project.name}</h2>
         </div>
         <img
