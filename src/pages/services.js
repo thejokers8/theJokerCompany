@@ -13,7 +13,7 @@ function Services() {
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="services-info flex flex-col items-center ">
           <h1 className="text-center  title-projects font-bold pt-8 mb-4">
-            Joker shop
+            Welcome to the Joker shop
           </h1>
           <p className="services-text mt-8">
             Here you can find some services and solutions we currently offer.

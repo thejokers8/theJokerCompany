@@ -226,9 +226,6 @@ button:focus {
 }
 
 .title-project {
-  position: absolute;
-  top: 10%;
-  left: 7%;
   text-transform: uppercase;
   display: inline-block;
   font-size: 0.7rem;
@@ -952,7 +949,7 @@ span + span {
 
 
   .devices .cellphone {
-    width: 30vw;
+    width: 40vw;
     font-size: 0.7rem;
   }
 
@@ -1148,7 +1145,7 @@ span + span {
   }
 
   .App-contact {
-    padding: 30vh 0;
+    height: 100vh;
    }
 
   }
@@ -1216,7 +1213,7 @@ span + span {
 
 @media(max-height: 1000px){
   .Form {
-    height: 60vh;
+    height: 55vh;
   }
 }
 
@@ -1226,10 +1223,38 @@ span + span {
   }
 }
 
-@media(min-height: 1000px) {
-  @media(min-width: 320px){
+
+
+@media(min-height: 1024px) {
     .Form {
-      height: 50vh;
+      height: 45vh;
+    }
+
+    .App-contact {
+      height: 150vh;
+    }
+
+    .card {
+      margin-top: 2em;
+    }
+}
+
+@media(height: 1368px) {
+  @media(width: 912px){
+    .Form {
+      height: 35vh;
+    }
+    
+    .App-contact {
+      padding-top: 10em;
     }
   }
+}@media(height: 600px) {
+  @media(width: 1024px){
+    .Form {
+      height: 80vh;
+    }
+  
+  }
 }
+

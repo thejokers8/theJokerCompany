@@ -38,7 +38,7 @@ function Contact() {
 
   return (
     <div className="App-contact w-screen text-center point3">
-      <div className="contact-us flex flex-col justify-center pt-20">
+      <div className="contact-us flex flex-col justify-center pt-20 mb-[-2em]">
         <h1 className=" font-bold tracking-widest title-projects">
           Contact Us
         </h1>
@@ -61,32 +61,32 @@ function Contact() {
             possible.
           </p>
           <div className="devices">
-            <h3 className="cellphone w-[20vw]">
+            <h3 className="cellphone w-[30vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 316
               673 5651
             </h3>
-            <h3 className="cellphone w-[20vw]">
+            <h3 className="cellphone w-[30vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 310
               728 2535
             </h3>
-            <h3 className="cellphone w-[20vw]">
+            <h3 className="cellphone w-[30vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 302
               298 6010
             </h3>
-            <h3 className="cellphone w-[20vw]">
+            <h3 className="cellphone w-[30vw]">
               <i className="animate-bounce ri-phone-fill phone"></i> + 57 319
               653 2667
             </h3>
-            <h3 className="email-contact w-[20vw]">
+            <h3 className="email-contact w-[30vw]">
               <i className="animate-bounce ri-mail-fill text-red-400"></i>{" "}
               thejokercompany8@gmail.com
             </h3>
           </div>
         </div>
 
-        <div className="Form w-1/2 h-3/6 rounded-2xl p-10 flex flex-col round-bg text-green-900">
+        <div className="Form w-1/2 h-3/6 rounded-2xl py-10 px-10 flex flex-col round-bg text-green-900">
           <form
-            className="flex flex-col space-y-3 h-[70vh] justify-between "
+            className="flex flex-col space-y-3 h-[70vh] justify-center "
             onSubmit={handleSend}
             type="text"
             action="#"

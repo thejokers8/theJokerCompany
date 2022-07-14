@@ -47,11 +47,15 @@ function About() {
   return (
     <div className="App-about flex flex-col justify-center bg-gradient-to-r from-sky-800 via-slate-500 to-sky-900 point3">
       <div className="about-summary flex justify-center px-40 pt-20 pb-2 ">
-        <button className="animate-pulse" onClick={PrevSlide}> <i className="ri-arrow-left-s-line text-[3rem] font-bold"></i> </button>
+        <div className="flex items-center">
+          <button className="animate-pulse" onClick={PrevSlide}> <i className="ri-arrow-left-s-line text-[3rem] font-bold"></i> </button>
+        </div>
         <div className="about-page">
           {pageAbout}
         </div>
-        <button className="animate-pulse" onClick={NextSlide}> <i className="ri-arrow-right-s-line text-[3rem] font-bold"></i> </button>
+        <div className="flex items-center">
+          <button className="animate-pulse" onClick={NextSlide}> <i className="ri-arrow-right-s-line text-[3rem] font-bold"></i> </button>
+        </div>
       </div>
       <h2 className="title-projects font-bold mt-5 lg:mt-[2em]">Our Team</h2>
       <div className="about-individual flex items-center justify-center">

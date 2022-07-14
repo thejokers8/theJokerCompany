@@ -4,7 +4,7 @@ export const products = [
     category: 0,
     name: "Landing Pages",
     description:
-    <div className="content-service pt-6 pb-10 px-6">
+    <div className="content-service pt-12 pb-10 px-6">
       <h2 className="content-title">What Includes? </h2>
         <div className="text-left mb-10 text-[0.8rem] mt-10">
           <p className="mb-[0.5em]">▶ Page's Design</p>
@@ -23,9 +23,9 @@ export const products = [
     category: 0,
     name: "Full FrontEnd UI/UX Interface",
     description:
-    <div className="content-service pt-6 pb-10 px-6">
+    <div className="content-service pt-10 pb-10 px-6">
       <h2 className="content-title">What Includes?</h2>
-      <div className="text-left mb-5 mt-10 text-[0.8rem]">
+      <div className="text-left mb-5 mt-5 text-[0.8rem]">
         <p className="mb-[0.5em]">▶ Page's Applications</p>
         <p className="mb-[0.5em]">▶ Figma Design</p>
         <p className="mb-[0.5em]">▶ React App</p>
@@ -43,7 +43,7 @@ export const products = [
     category: 0,
     name: "Interface + Firebase/MongoDB Managment",
     description:
-     <div className="px-6 pt-6 overflow-y-scroll h-[75%] mt-3">
+     <div className="px-6 pt-3 overflow-y-scroll h-[85%] mt-3">
       <h2 className="text-[0.9rem] font-[800] mb-5">What Includes?</h2>
       <div className="text-left mb-1 text-[0.8rem]">
         <p className="mb-[0.5em]">▶ Web Applications + Users Database Managment</p>
@@ -68,7 +68,7 @@ export const products = [
     name: "Development",
     description:
       <div className="flex flex-col justify-center px-6">
-        <h2 className="content-title mt-[-2em]">What includes?</h2>
+        <h2 className="content-title mt-12">What includes?</h2>
         <div className="mt-[2em] text-left text-[0.8rem]">
           <p className="mb-[1em]">▶ Creation a Machine Learning Algorithms</p>
           <p className="mb-[2em]">▶ Delivery the model's code to user</p>
@@ -86,7 +86,7 @@ export const products = [
     name: "Deployment",
     description: 
     <div className="flex flex-col justify-center px-6">
-        <h2 className="content-title mt-[-2em]">What includes?</h2>
+        <h2 className="content-title mt-5">What includes?</h2>
           <div className="mt-[2em] mb-[2em] text-left text-[0.8rem]">
             <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
             <p>▶ Deployment of the model's code in a basic interface or a embedded app</p>
@@ -106,7 +106,7 @@ export const products = [
     name: "Full Package",
     description: 
     <div className="flex flex-col justify-center px-6">
-        <h2 className="content-title mt-[-2em]">What includes?</h2>
+        <h2 className="content-title mt-5">What includes?</h2>
         <div className="mt-[2em] mb-[2em] text-left ml-[1em] text-[0.8rem]" >
           <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
           <p className="mb-[0.5em]">▶ Deployment of the model's code in a basic interface or a embedded app</p>
@@ -126,7 +126,7 @@ export const products = [
     name: "Anatomy",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -141,7 +141,7 @@ export const products = [
     name: "Physiology",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -157,7 +157,7 @@ export const products = [
     name: "Management of medical image processing software",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -172,7 +172,7 @@ export const products = [
     name: "Neurology",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -187,7 +187,7 @@ export const products = [
     name: "JavaScript",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
     </div>,
     href: "#",
     imageSrc:
@@ -202,7 +202,7 @@ export const products = [
     name: "React",
     description: 
       <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -217,7 +217,7 @@ export const products = [
     name: "Python",
     description:
     <div className="flex items-center px-3">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -231,7 +231,7 @@ export const products = [
     name: "Industrial Automation",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project, problem or doubt clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -245,7 +245,7 @@ export const products = [
     name: "Thermodynamics",
     description: 
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project or problem clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project or problem clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -259,7 +259,7 @@ export const products = [
     name: "Hydraulics Machine",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-[-3em]">Tell us what is your project or problem clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-5">Tell us what is your project or problem clicking on the next button</h2>
       </div>,
     href: "#",
     imageSrc:

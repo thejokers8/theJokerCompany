@@ -34,21 +34,24 @@ function CardFlip({
         </a>
       </div>
       <div
-          className="service-card-turn border-2 border-black flex w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center"
+          className="service-card-turn border-2 border-black flex flex-col w-full text-xs aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 text-center"
         >
+          <div className="h-[85%]">
             {description}
-            <button onClick={handleClick} className="absolute bottom-[7%] left-[15%]">
-            <i 
-              className="ri-arrow-go-back-line text-[1rem] font-bold">
-            </i>
-            </button>
-            <div className="absolute bottom-5 right-6">
-              <button 
-                  className="py-[5px] px-[10px] text-[0.8rem] rounded-md right-5 bg-green-400 font-bold animate-bounce"
-                  title=""
-                ><Link to="/contact">REQUESTED HERE! </Link>
+          </div>
+    
+          <div className="flex justify-between mb-5 px-5">
+              <button onClick={handleClick}>
+              <i 
+                className="ri-arrow-go-back-line text-[1rem] font-bold">
+              </i>
               </button>
-           </div>
+              <button 
+                  className="py-[5px] px-[10px] text-[0.8rem] rounded-md bg-green-400 font-bold animate-bounce"
+                  title=""
+                  ><Link to="/contact">REQUESTED HERE! </Link>
+              </button>
+          </div>
       </div>
     </ReactCardFlip>
   );
