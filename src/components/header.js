@@ -47,7 +47,7 @@ function Header() {
           >
             <Link to="/contact">Contact</Link>
           </li>
-          <li onClick={() => setShowNavBar((show) => !show)}>
+          {/* <li onClick={() => setShowNavBar((show) => !show)}>
             <Link to="/cart">
               {cartItemsAmount > 0 ? (
                 <i className="ri-shopping-cart-fill ri-fw ri-2x ml-1"></i>
@@ -55,7 +55,7 @@ function Header() {
                 <i className="ri-shopping-cart-line ri-fw ri-2x ml-1"></i>
               )}
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
