@@ -1,5 +1,5 @@
 import ReactCardFlip from "react-card-flip";
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom"
 
 function CardFlip({
@@ -49,7 +49,7 @@ function CardFlip({
               <button 
                   className="py-[5px] px-[10px] text-[0.8rem] rounded-md bg-green-400 font-bold animate-bounce"
                   title=""
-                  ><Link to="/contact">REQUESTED HERE! </Link>
+                  ><Link to="/contact">REQUEST HERE! </Link>
               </button>
           </div>
       </div>

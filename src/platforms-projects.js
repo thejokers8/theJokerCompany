@@ -2,7 +2,7 @@ export const platforms = [
         {
           id: 0,
           name: "python",
-          link: "./skills/icons8-python.gif",
+          link: "../skills/icons8-python.gif",
         },
         {
           id: 1,
@@ -19,13 +19,13 @@ export const platforms = [
         {
           id: 3,
           name: "javascript",
-          link: "./skills/icons8-javascript.gif",
+          link: "../skills/icons8-javascript.gif",
         },
       
         {
           id: 4,
           name: "react",
-          link: "./skills/icons8-react.gif",
+          link: "../skills/icons8-react.gif",
         },
       
         {
@@ -91,13 +91,13 @@ export const platforms = [
         {
           id: 17,
           name: "keras",
-          link: "./skills/keras-icon.png",
+          link: "../skills/keras-icon.png",
         },
       
         {
           id: 18,
           name: "tailwindcss",
-          link: "./skills/tailwind-css.png",
+          link: "../skills/tailwind-css.png",
         },
       
         {
@@ -109,18 +109,18 @@ export const platforms = [
         {
           id: 20,
           name: "freesurfer",
-          link: "./skills/fs-logo.JPG",
+          link: "../skills/fs-logo.JPG",
         },
       
         {
           id: 21,
           name: "3Dslicer",
-          link: "./skills/3dslicer-icon.jpeg",
+          link: "../skills/3dslicer-icon.jpeg",
         },
       
         {
           id: 22,
           name: "fsl",
-          link: "./skills/fsl-icon.jpeg",
+          link: "../skills/fsl-icon.jpeg",
         },
 ];

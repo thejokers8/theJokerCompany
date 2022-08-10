@@ -5,7 +5,6 @@ import CardFlip from "./cardFlip";
 function CardServices({
     id,
     name,
-    description,
     image,
 })
 

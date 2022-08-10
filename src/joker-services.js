@@ -54,7 +54,7 @@ export const products = [
       </div>
         <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-[0.5em]">3 pages with 5 components on each one (additional component 35USD)</p>
         <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-[0.5em]">3 mounths maintenance giftcard</p>
-        <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-3">3 mounths maintenance + 20% off by getting a technical support coverage per one year</p>
+        <p className="text-[0.7rem] text-justify italic text-cyan-600 mb-3">3 months maintenance + 20% off by getting a technical support coverage per one year</p>
     </div>,
     href: "#",
     imageSrc:
@@ -70,8 +70,7 @@ export const products = [
       <div className="flex flex-col justify-center px-6">
         <h2 className="content-title mt-12">What includes?</h2>
         <div className="mt-[2em] text-left text-[0.8rem]">
-          <p className="mb-[1em]">▶ Creation a Machine Learning Algorithms</p>
-          <p className="mb-[2em]">▶ Delivery the model's code to user</p>
+          <p className="mb-[1em]">▶ Development of a Machine Learning Algorithm</p>
         </div>
       </div>,
     href: "#",
@@ -88,10 +87,9 @@ export const products = [
     <div className="flex flex-col justify-center px-6">
         <h2 className="content-title mt-5">What includes?</h2>
           <div className="mt-[2em] mb-[2em] text-left text-[0.8rem]">
-            <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
-            <p>▶ Deployment of the model's code in a basic interface or a embedded app</p>
+            <p>▶ Deployment of an existing Machine learning Algorithm as Wep app, Mobile app or even in a embedded device</p>
           </div>
-          <p className="text-[0.7rem] text-justify italic text-cyan-600">Note: it could have improvements on the final interface</p>
+          <p className="text-[0.7rem] text-justify italic text-cyan-600">Note: The interface can have as many features as the customer wants to</p>
       </div>,
     href: "#",
     imageSrc:
@@ -108,8 +106,8 @@ export const products = [
     <div className="flex flex-col justify-center px-6">
         <h2 className="content-title mt-5">What includes?</h2>
         <div className="mt-[2em] mb-[2em] text-left ml-[1em] text-[0.8rem]" >
-          <p className="mb-[0.5em]">▶ Creation a Machine Learning Algorithms</p>
-          <p className="mb-[0.5em]">▶ Deployment of the model's code in a basic interface or a embedded app</p>
+          <p className="mb-[0.5em]">▶ Development of a Machine Learning Algorithm</p>
+          <p className="mb-[0.5em]">▶ Deployment of the model as a Web app, mobile app or even in a embedded device</p>
           <p>▶ Interface Design according to customer request</p>
         </div>
       </div>,
@@ -119,75 +117,13 @@ export const products = [
     imageAlt:
       "Full Package"
   },
-
   {
     id: 7,
-    category: 2,
-    name: "Anatomy",
-    description:
-    <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
-      </div>,
-    href: "#",
-    imageSrc:
-      "https://cdn.pixabay.com/photo/2013/07/12/17/15/vitruvian-man-151866_960_720.png",
-    imageAlt:
-      "Anatomy"
-  },
-
-  {
-    id: 8,
-    category: 2,
-    name: "Physiology",
-    description:
-    <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
-      </div>,
-    href: "#",
-    imageSrc:
-      "https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    imageAlt:
-      "Physiology"
-  },
-
-
-  {
-    id: 9,
-    category: 2,
-    name: "Management of medical image processing software",
-    description: 
-    <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
-      </div>,
-    href: "#",
-    imageSrc:
-      "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
-    imageAlt:
-      "Medical image"
-  },
-
-  {
-    id: 10,
-    category: 2,
-    name: "Neurology",
-    description: 
-    <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
-      </div>,
-    href: "#",
-    imageSrc:
-      "https://cdn.pixabay.com/photo/2014/11/01/18/21/brain-512758_960_720.png",
-    imageAlt:
-      "Neurology"
-  },
-
-  {
-    id: 11,
     category: 2,
     name: "JavaScript",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
     </div>,
     href: "#",
     imageSrc:
@@ -197,12 +133,12 @@ export const products = [
   },
 
   {
-    id: 12,
+    id: 8,
     category: 2,
     name: "React",
     description: 
       <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -212,26 +148,97 @@ export const products = [
   },
 
   {
-    id: 13,
+    id: 9,
     category: 2,
     name: "Python",
     description:
     <div className="flex items-center px-3">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
       </div>,
     href: "#",
     imageSrc:
       "https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png",
     imageAlt: "Python" 
   },
+  {
+    id: 10,
+    category: 2,
+    name: "Artificial Intelligence",
+    description:
+    <div className="flex items-center px-3">
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
+      </div>,
+    href: "#",
+    imageSrc:
+      "https://cdn.pixabay.com/photo/2019/03/26/10/46/artificial-4082314_960_720.jpg",
+    imageAlt: "Artificial Intelligence" 
+  },
+  {
+    id: 11,
+    category: 2,
+    name: "Management of medical image processing software",
+    description: 
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
+      </div>,
+    href: "#",
+    imageSrc:
+      "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
+    imageAlt:
+      "Medical image"
+  },
+  {
+    id: 12,
+    category: 2,
+    name: "Anatomy",
+    description:
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
+      </div>,
+    href: "#",
+    imageSrc:
+      "https://cdn.pixabay.com/photo/2013/07/12/17/15/vitruvian-man-151866_960_720.png",
+    imageAlt:
+      "Anatomy"
+  },
+
+  {
+    id: 13,
+    category: 2,
+    name: "Physiology",
+    description:
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
+      </div>,
+    href: "#",
+    imageSrc:
+      "https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    imageAlt:
+      "Physiology"
+  },
 
   {
     id: 14,
     category: 2,
+    name: "Neurology",
+    description: 
+    <div className="flex items-center px-5">
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
+      </div>,
+    href: "#",
+    imageSrc:
+      "https://cdn.pixabay.com/photo/2014/11/01/18/21/brain-512758_960_720.png",
+    imageAlt:
+      "Neurology"
+  },
+
+  {
+    id: 15,
+    category: 2,
     name: "Industrial Automation",
     description:
     <div className="flex items-center px-5">
-        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt clicking on the next button</h2>
+        <h2 className="font-bold text-lg mt-12">Tell us what is your project, problem or doubt</h2>
       </div>,
     href: "#",
     imageSrc:
@@ -240,7 +247,7 @@ export const products = [
   },
 
   {
-    id: 15,
+    id: 16,
     category: 2,
     name: "Thermodynamics",
     description: 
@@ -254,7 +261,7 @@ export const products = [
   },
 
   {
-    id: 16,
+    id: 17,
     category: 2,
     name: "Hydraulics Machine",
     description:
