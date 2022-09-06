@@ -18,19 +18,19 @@ function CardFlipProjects({ project }) {
 
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-      <div onClick={handleClick} className="w-[450px] p-[1em]">
+      <div onClick={handleClick} className="w-[450px] p-[1.5em] ">
         <div className="name-container w-[100%] text-left mb-[-2.5em] pl-5">
           <h2 className="title-project text-left animate-pulse">{project.name}</h2>
         </div>
         <img
           src={project.image}
           alt={project.name}
-          className="project-image rounded-3xl transition duration-400 hover:rounded-3xl hover:scale-105 hover:ease-in mx-auto sm:w-[400px] cursor-pointer"
+          className="project-image rounded-3xl transition duration-400 hover:rounded-3xl hover:scale-105 hover:ease-in mx-auto sm:w-[400px] cursor-pointer border-2 border-[lightgreen]"
         />
       </div>
      
       <div
-        className="sm:h-[220px] sm:w-[400px] w-[290px]"
+        className="sm:h-[220px] sm:w-[400px] w-[290px] border-2 border-[lightgreen] rounded-3xl mt-[-0.8em]"
       >
         <div className="rounded-3xl shadow-lg bg-white h-full flex flex-col px-[4%] py-[10%]">
           <p className="text-[0.75rem]">{project.description}</p>
@@ -40,7 +40,7 @@ function CardFlipProjects({ project }) {
           
           <div className="flex w-[100%] justify-between px-10 mt-[-1.5em]">
 
-            <div className="flex flex-col">
+            <div className="flex flex-col mt-[-1em]">
               <a
                 className="animate-pulse text-[0.75rem] inline-block p-[0.2em] rounded-lg text-black cursor-pointer bg-green-200 mb-2"
                 target="_blank"

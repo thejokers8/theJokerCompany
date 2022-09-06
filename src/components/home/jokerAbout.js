@@ -1,30 +1,24 @@
+import React from "react"
 import { Link } from "react-router-dom";
 
 function JokerAbout() {
   // const video = useRef(null);
   return (
-    <div className="div relative w-full overflow-hidden">
-      <video
-        src="https://mdbootstrap.com/img/video/Lines.mp4"
-        type="video/mp4"
-        loop
-        // ref={video}
-        className="clip w-full"
-        autoPlay={true}
-        muted="mute"
-        // onMouseEnter={() => {
-        //   video.current.play();
-        // }}
-        // onMouseLeave={() => video.current.pause()}
-      ></video>
-      <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden">
-        <div className="flex justify-center items-center h-full">
-          <div className="text-green-300 text-center px-10 px-md-0 flex flex-col items-center">
-            <div className="content mb-[2em] text-[1.5rem]">
+    <div className="home-about mt-[-2em] relative w-full overflow-hidden bg-[#003016]">
+      <div className="joker-about py-24 px-24 flex w-full h-full overflow-hidden items-center justify-around">
+        <div className="p-10">
+          <img 
+            src="../../../general-images/logo.jpeg"
+            className="w-full mb-10 mt-10">
+          </img>
+        </div>
+        <div className="flex justify-center items-center h-full w-[80vw] sm:w-[60vw]">
+          <div className="text-white text-center px-10 flex flex-col items-center">
+            <div className="content mb-[2em] text-[1.5rem] mx-5">
               <h2>TheJokerCompany</h2>
               <h2>TheJokerCompany</h2>
             </div>
-            <h5 className="joker text-base font-semibold mb-6 w-3/6 uppercase tracking-wider animate-pulse">
+            <h5 className="joker text-base mb-6 sm:w-[80%] uppercase tracking-wider">
               The Joker company is a Colombian startup conformed by a team of
               Mechatronical, Biomedical and Mechanical Engineers interested in
               web development, AI and everything related to Information
@@ -33,10 +27,13 @@ function JokerAbout() {
             </h5>
             <Link
               to="/contact"
-              className="button inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg hover:text-green-600 hover:scale-105 transition duration-150 ease-in-out"
+              className="button mb-5 sm:mb-10 px-6 py-2.5 text-[0.8rem] text-white sm:font-medium sm:text-[1.2rem] font-semibold leading-tight uppercase rounded-[1em] shadow-md"
             >
-              leave us a message
+              Contact us
             </Link>
+            <p className="uppercase font-semibold text-[1rem] sm:text-[1.5rem] mb-10">
+              We develop your ideas as never before
+            </p>
           </div>
         </div>
       </div>

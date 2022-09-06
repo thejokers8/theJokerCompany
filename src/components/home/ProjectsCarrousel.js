@@ -11,12 +11,12 @@ function ProjectsCarrousel() {
   ));
 
   return (
-    <div className="project-main pb-12 bg-cover bg-gradient-to-b from-indigo-100 to-indigo-900">
+    <div className="project-main pb-12 mt-10">
       <div className="mb-6 py-10 ">
-        <h1 className="title-projects mb-4 font-bold text-green-600 w-fit mx-auto">
+        <h1 className="title-projects mb-10 font-bold text-green-600 w-fit mx-auto">
           Projects
         </h1>
-        <p className="text-projects text-base animate-bounce duration-700 w-4/6 text-center mx-auto mt-10 ">
+        <p className="mb-10 mx-10 sm:mx-20 lg:mx-60 text-[1.3rem] text-[rgba(0,0,0,0.8)]">
           Our experience as developers has been summarized in our web portfolio.
           Bellow you'll see some examples of previous designs. Feel free to
           spent time checking out what we did, what we're currently doing and

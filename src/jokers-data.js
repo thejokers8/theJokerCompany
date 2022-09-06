@@ -3,6 +3,9 @@ export const description = [
     id: 1,
     name: "Cristhian Carrillo",
     career: "Mechatronics Engineer",
+    jokerCard: "../crew-images/joker-spade.png",
+    jokerId: "♠",
+    jokerName: "Cristhian",
     about:
       "CEO of the Joker Company and a Mechatronic engineer with hands-on experience gained dealing with deep learning and neuroimaging projects related to find biomarkers that can help to diagnose the alzheimer's disease through the analysis of MRI and the development of an AI app (Python). I really like the information technology world (TI), not only for frontend app development but also for development and deployment of artificial intelligence models as web apps, currently working as a React developer.",
     image: "../crew-images/cristhian.jpeg",
@@ -32,6 +35,9 @@ export const description = [
     id: 2,
     name: "Camilo Castrillon",
     career: "Biomedical Engineer",
+    jokerCard: "../crew-images/joker-club.png",
+    jokerId: "♣",
+    jokerName: "Camilo",
     about:
       "CEO of the Joker Company. As biomedical engineer anatomy and physiology are just two of my hobbies. I like sports, nature and technology and I try to mix those things with medicine and IA to create powerful software tools with nice interfaces that people could use easily. I like simplicity and saving time to spent it in important things so I let Python do tasks automation and the real heavy work. I really enjoy learning about neurolgy, even I've got MRI processing background with software tools like 3D Slicer, Freesurfer, FSL and my I want to go deepest in the biomedical images world. Also I'm working on IA and deep learning models deployment",
     image: "../crew-images/camilo.jpeg",
@@ -61,6 +67,9 @@ export const description = [
     id: 3,
     name: "Jose Avenia",
     career: "Mechanical Engineer",
+    jokerCard: "../crew-images/joker-diamond.png",
+    jokerId: "♦",
+    jokerName: "Jose",
     about:
       "CEO of the Joker Company and Mechanical Engineer with practical experience in the field of Hydraulics and management of computational tools such as Solidworks, MATLAB and Scilab for mechanical design, programming and numerical simulation; acquired through the repair and manufacturing processes of hydraulic equipment (with a high emphasis on hydraulic cylinders) and my experience on my undergrate proffesional. At the same time, I like the programming, where I intend to use in the optimization of processes in general. I am currently focused on web development, specially in Frontend Develpment using React's library, TailwindCCS and Bootstrap",
     image: "../crew-images/jose.jpeg",
@@ -83,6 +92,9 @@ export const description = [
     id: 4,
     name: "Jhon Quejada",
     career: "Mechatronics Engineer",
+    jokerCard: "../crew-images/joker-heart.png",
+    jokerId: "♥",
+    jokerName: "Jhon",
     about:
       "CEO of the Joker Company. As a mechatronics engineer and artificial intelligence specialist, with experience gained in the development of machine learning models and deep learning using python as a base programming language and solid knowledge in the frontend area. Passionate about the world of information technology (IT), focused on the deployment, control, and versioning of software, focused on the integration of web development with artificial intelligence to create robust applications and meet the needs based on the advances of technology in our environment.",
     image: "../crew-images/jhon.png",
