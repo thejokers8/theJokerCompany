@@ -143,7 +143,7 @@ function Contact() {
                 onChange={handleChange}
               />
               <p className="text-sm mx-5">What solutions of The JokerCompany do you need?</p>
-              <div className="solutions flex justify-around mt-5">
+              <div className="solutions flex justify-around mt-10">
                 <div>
                   <input onChange={handleChange} type="radio" value="web development" placeholder="Solution" id="web" name="solution"></input>
                   <label className="text-xs ml-2" for="web">Web Development</label>
