@@ -26,7 +26,7 @@ export const products = [
     <div className="content-service pt-10 pb-10 px-6">
       <h2 className="content-title">What Includes?</h2>
       <div className="text-left mb-5 mt-5 text-[0.8rem]">
-        <p className="mb-[0.5em]">▶ Page's Applications</p>
+        <p className="mb-[0.50em]">▶ Page's Applications</p>
         <p className="mb-[0.5em]">▶ Figma Design</p>
         <p className="mb-[0.5em]">▶ React App</p>
      </div>
