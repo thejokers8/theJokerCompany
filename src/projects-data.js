@@ -1,8 +1,14 @@
+import projectA from "./projects-images/apiForApis.png"
+import projectB from "./projects-images/quizzical.png"
+import projectC from "./projects-images/spotifyApp.png"
+import projectD from "./projects-images/pokedexApp.png"
+import projectE from "./projects-images/Netflix-clone.png"
+
 export const jokerProjects = [
   {
     id: 0,
     name: "Api-for-APIS",
-    image: "../projects-images/apiForApis.png",
+    image: projectA,
     description:
       "If you want to check out whatever API that you need, you can do it between this App, just you need to use the check out the bar search to find your desire API ",
     date: "December-04-2021",
@@ -17,7 +23,7 @@ export const jokerProjects = [
   {
     id: 1,
     name: "Quizzical",
-    image: "../projects-images/quizzical.png",
+    image: projectB,
     description:
       " If you want to know what your level of knowledge, use this simple trivial App",
     date: "December-21-2021",
@@ -33,7 +39,7 @@ export const jokerProjects = [
   {
     id: 2,
     name: "Spotify-songs-search-app",
-    image: "../projects-images/spotifyApp.png",
+    image: projectC,
     description:
       " An app that you can find your favorites songs and listen them",
     date: "March-13-2022",
@@ -49,7 +55,7 @@ export const jokerProjects = [
   {
     id: 3,
     name: "Pokedex-app",
-    image: "../projects-images/pokedexApp.png",
+    image: projectD,
     description:
       "A simple version of a Pokedex, so, if you are a pokemon lover, try to use this app and find your favorites pokemon",
     date: "May-02-2022",
@@ -66,7 +72,7 @@ export const jokerProjects = [
   {
     id: 4,
     name: "Neflix-clone",
-    image: "../projects-images/Netflix-clone.png",
+    image: projectE,
     description:
       "Virtual trivial game to distract your mind in your free times, dont doubt to probe it",
     date: "April-24-2022",

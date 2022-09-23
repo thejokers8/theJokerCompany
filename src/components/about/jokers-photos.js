@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { description } from "../../jokers-data";
 
 function JokersPhotos({ jokerData, setMemberDescription, changeMember }) {
-
+  console.log(jokerData.image)
   useEffect(() => {
     setMemberDescription(
       description.filter((element) => element.id === changeMember)

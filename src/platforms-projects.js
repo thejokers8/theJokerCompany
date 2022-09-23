@@ -1,8 +1,19 @@
+import python from "./skills/icons8-python.gif"
+import javascript from "./skills/icons8-javascript.gif"
+import react from "./skills/icons8-react.gif"
+import knime from "./skills/knime_icon_132274.png"
+import fastapi from "./skills/fastapi-logo.png"
+import scilab from "./skills/scilab_icon_132011.png"
+import keras from "./skills/keras-icon.png"
+import tailwind from "./skills/tailwind-css.png"
+import freesurfer from "./skills/fs-logo.JPG"
+import slicer from "./skills/3dslicer-icon.jpeg"
+import fsl from "./skills/fsl-icon.jpeg"
 export const platforms = [
         {
           id: 0,
           name: "python",
-          link: "../skills/icons8-python.gif",
+          link: python,
         },
         {
           id: 1,
@@ -19,13 +30,13 @@ export const platforms = [
         {
           id: 3,
           name: "javascript",
-          link: "../skills/icons8-javascript.gif",
+          link: javascript,
         },
       
         {
           id: 4,
           name: "react",
-          link: "../skills/icons8-react.gif",
+          link: react,
         },
       
         {
@@ -34,7 +45,11 @@ export const platforms = [
           link: "https://img.icons8.com/color/240/000000/solidworks.png",
         },
       
-        { id: 6, name: "scilab", link: "./skills/scilab_icon_132011.png" },
+        {
+          id: 6, 
+          name: "scilab",
+          link: scilab,
+        },
       
         {
           id: 7,
@@ -42,7 +57,11 @@ export const platforms = [
           link: "https://img.icons8.com/fluency/240/000000/matlab.png",
         },
       
-        { id: 8, name: "knime", link: "./skills/knime_icon_132274.png" },
+        { 
+          id: 8, 
+          name: "knime", 
+          link: knime, 
+        },
       
         {
           id: 9,
@@ -56,7 +75,11 @@ export const platforms = [
           link: "https://img.icons8.com/color/240/000000/tensorflow.png",
         },
       
-        { id: 11, name: "fastapi", link: "./skills/fastapi-logo.png" },
+        { 
+          id: 11, 
+          name: "fastapi", 
+          link: fastapi, 
+        },
       
         {
           id: 12,
@@ -91,13 +114,13 @@ export const platforms = [
         {
           id: 17,
           name: "keras",
-          link: "../skills/keras-icon.png",
+          link: keras,
         },
       
         {
           id: 18,
           name: "tailwindcss",
-          link: "../skills/tailwind-css.png",
+          link: tailwind,
         },
       
         {
@@ -109,18 +132,18 @@ export const platforms = [
         {
           id: 20,
           name: "freesurfer",
-          link: "../skills/fs-logo.JPG",
+          link: freesurfer,
         },
       
         {
           id: 21,
           name: "3Dslicer",
-          link: "../skills/3dslicer-icon.jpeg",
+          link: slicer,
         },
       
         {
           id: 22,
           name: "fsl",
-          link: "../skills/fsl-icon.jpeg",
+          link: fsl,
         },
 ];

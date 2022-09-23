@@ -1,3 +1,4 @@
+import React from "react";
 import { jokerProjects } from "../../projects-data";
 import CardFlipProjects from "./cardFlipProjects";
 import "../../App.css";

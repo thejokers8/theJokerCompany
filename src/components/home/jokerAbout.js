@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
+import logo from "../../general-images/logo.jpeg"
 
 function JokerAbout() {
   // const video = useRef(null);
@@ -8,7 +9,7 @@ function JokerAbout() {
       <div className="joker-about py-24 px-24 flex w-full h-full overflow-hidden items-center justify-around">
         <div className="p-10">
           <img 
-            src="../../../general-images/logo.jpeg"
+            src={logo}
             className="w-full mb-10 mt-10">
           </img>
         </div>

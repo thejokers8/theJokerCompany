@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../general-images/logo.jpeg"
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       <div className="flex-footer flex justify-between">
         <div className="footer-image lg:ml-32 ml-10 mt-6 flex justify-center items-center">
           <img 
-              src="../../general-images/logo.jpeg"
+              src={logo}
               className="w-[15vh] h-[10vh]">
           </img>
         </div>
