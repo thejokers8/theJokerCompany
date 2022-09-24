@@ -697,11 +697,6 @@ span + span {
     height: 60%;
   }
 
-  .icon-skills {
-    width: 20px;
-    height: 30px;
-  }
-
   .text,
   .title {
     text-align: center;
@@ -827,11 +822,6 @@ span + span {
 
   .title-joker-description {
     text-align: center;
-  }
-
-  .icon-skills {
-    width: 20px;
-    height: 30px;
   }
 
   .contact-btn {

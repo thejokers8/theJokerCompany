@@ -20,8 +20,8 @@ function JokersCards({ jokerCard, setMemberCard, changeMemberCard }) {
             src={jokerCard.image}
             className="joker-card-photo absolute opacity-90 sm:w-[17vh] sm:h-[17vh] border-2 border-[rgba(0,0,0,0.4)] rounded-full mx-[20vh] my[-35vh] sm:mx-[18vh] md:mx-[20.5vw] sm:my-[-33vh]">
         </img>
-        <h3 className="mt-5 flex justify-center items-center text-[1.1rem] font-semibold text-[rgba(0,0,0,0.6)] mb-10">
-            <span className="text-[2rem] font-bold mr-3 mb-1">{jokerCard.jokerId}</span> {jokerCard.jokerName}
+        <h3 className="mt-5 flex justify-center items-center text-[1rem] font-semibold text-[rgba(0,0,0,0.6)] mb-10">
+            <span className="text-[1.5rem] font-bold mr-3 mb-1">{jokerCard.jokerId}</span> {jokerCard.jokerName}
         </h3>
       </div>
      
