@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/theJokerCompany/static/css/main.c08bd5ce.css",
-    "main.js": "/theJokerCompany/static/js/main.a26f3d40.js",
+    "main.css": "/theJokerCompany/static/css/main.1495848b.css",
+    "main.js": "/theJokerCompany/static/js/main.8bd97d54.js",
     "static/media/Netflix-clone.png": "/theJokerCompany/static/media/Netflix-clone.b64d2ce874dc14f25f38.png",
     "static/media/icons8-react.gif": "/theJokerCompany/static/media/icons8-react.0a7cffca85bca72045b7.gif",
     "static/media/pokedexApp.png": "/theJokerCompany/static/media/pokedexApp.52a38f63e54aea24ad0a.png",
@@ -24,11 +24,11 @@
     "static/media/joker-diamond.png": "/theJokerCompany/static/media/joker-diamond.c80972e1ca8d6c65714a.png",
     "static/media/jose.jpeg": "/theJokerCompany/static/media/jose.a634869e0bf530d9096f.jpeg",
     "index.html": "/theJokerCompany/index.html",
-    "main.c08bd5ce.css.map": "/theJokerCompany/static/css/main.c08bd5ce.css.map",
-    "main.a26f3d40.js.map": "/theJokerCompany/static/js/main.a26f3d40.js.map"
+    "main.1495848b.css.map": "/theJokerCompany/static/css/main.1495848b.css.map",
+    "main.8bd97d54.js.map": "/theJokerCompany/static/js/main.8bd97d54.js.map"
   },
   "entrypoints": [
-    "static/css/main.c08bd5ce.css",
-    "static/js/main.a26f3d40.js"
+    "static/css/main.1495848b.css",
+    "static/js/main.8bd97d54.js"
   ]
 }
