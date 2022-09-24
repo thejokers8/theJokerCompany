@@ -17,7 +17,7 @@ function ProjectsCarrousel() {
         <h1 className="title-projects mb-10 font-bold text-green-600 w-fit mx-auto">
           Projects
         </h1>
-        <p className="mb-10 mx-10 sm:mx-20 lg:mx-60 text-[1.3rem] text-[rgba(0,0,0,0.8)]">
+        <p className="mb-10 mx-10 sm:mx-20 lg:mx-60 text-[1.1rem] sm:text-[1.5rem] text-[rgba(0,0,0,0.8)]">
           Our experience as developers has been summarized in our web portfolio.
           Bellow you'll see some examples of previous designs. Feel free to
           spent time checking out what we did, what we're currently doing and

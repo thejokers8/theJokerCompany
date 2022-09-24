@@ -20,7 +20,7 @@ function Topics() {
       <h1 className="title-projects font-bold mt-20 mb-10">
         We provide agile software Development Solutions and Unique services
       </h1>
-      <p className="mb-20 mx-5 sm:mx-32 text-[1.3rem] text-[rgba(0,0,0,0.8)]">
+      <p className="mb-20 mx-5 sm:mx-32 text-[1.1rem] sm:text-[1.5rem] text-[rgba(0,0,0,0.8)]">
         We know that every company has different software and hardware criterias. 
         For that reason, we focus on providing the best possible solutions in multiples areas of information technology
       </p>

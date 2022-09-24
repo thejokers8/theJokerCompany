@@ -20,19 +20,18 @@ function Jokers(){
          }
 
     const jokersRender = description.map(joker => {return(
-        <div className="w-[50vw] lg:w-[15vw]">
+        <div className="w-[50vw] lg:w-[15vw] ">
             <img
                 src={joker.jokerCard}
-                className="opacity-85 mx-auto hover:scale-105 duration-500">
+                className="opacity-95 mx-auto hover:scale-105 duration-500">
             </img>
             <img 
                 src={joker.image}
-                className="absolute opacity-80 w-[20vw] h-[20vw] lg:w-[8vw] lg:h-[8vw] border-2 border-[rgba(0,0,0,0.4)] rounded-full mt-[-35%] lg:mt-[-15.5%] ml-[14.5%] lg:ml-[3.5%]">
+                className="absolute w-[20vw] h-[20vw] lg:w-[8vw] lg:h-[8vw] border-2 border-[rgba(0,0,0,0.4)] rounded-full mt-[-35%] lg:mt-[-15.5%] ml-[14.8%] lg:ml-[3.5%]">
             </img>
             <h3 className="flex justify-center items-center text-[1rem] font-semibold text-[rgba(0,0,0,0.6)] mb-10">
-                <span className="text-[2rem] mb-[0.15em] font-bold mr-2">{joker.jokerId}</span> {joker.jokerName}
-            </h3>
-           
+                <span className="sm:text-[2rem] mb-[0.15em] font-bold mr-2">{joker.jokerId}</span> {joker.jokerName}
+            </h3> 
         </div>
     )})
     
