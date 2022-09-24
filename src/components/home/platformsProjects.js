@@ -5,7 +5,7 @@ function PlatformsProjects({ platform, date}) {
   const projectPlatform = platforms.filter((icon) => platform.includes(icon.name));
   const renderPlatforms = projectPlatform.map((icon) => (
     <img
-      className="icon-skills mx-1 pb-3"
+      className="icon-skills mx-1 pb-3 w-[20px]"
       key={icon.id}
       src={icon.link}
       alt={icon.name}
