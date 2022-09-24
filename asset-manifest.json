@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/theJokerCompany/static/css/main.7b75c81a.css",
-    "main.js": "/theJokerCompany/static/js/main.1ce96e7e.js",
+    "main.css": "/theJokerCompany/static/css/main.df84ed9a.css",
+    "main.js": "/theJokerCompany/static/js/main.3334c035.js",
     "static/media/Netflix-clone.png": "/theJokerCompany/static/media/Netflix-clone.b64d2ce874dc14f25f38.png",
     "static/media/icons8-react.gif": "/theJokerCompany/static/media/icons8-react.0a7cffca85bca72045b7.gif",
     "static/media/pokedexApp.png": "/theJokerCompany/static/media/pokedexApp.52a38f63e54aea24ad0a.png",
@@ -10,25 +10,25 @@
     "static/media/cristhian.jpeg": "/theJokerCompany/static/media/cristhian.8ccd7d7cdc9d09628610.jpeg",
     "static/media/camilo.jpeg": "/theJokerCompany/static/media/camilo.c400ae3e0a5c3d7342c1.jpeg",
     "static/media/icons8-python.gif": "/theJokerCompany/static/media/icons8-python.630e0d305517e0eac029.gif",
-    "static/media/joker-spade.png": "/theJokerCompany/static/media/joker-spade.a24049b6038d0a8b2cc2.png",
-    "static/media/joker-heart.png": "/theJokerCompany/static/media/joker-heart.5a72df7d30e47434c2a8.png",
-    "static/media/joker-club.png": "/theJokerCompany/static/media/joker-club.f2dd09c014f9a968db89.png",
     "static/media/icons8-javascript.gif": "/theJokerCompany/static/media/icons8-javascript.1776ef3b763922ca5ea1.gif",
-    "static/media/joker-diamond.png": "/theJokerCompany/static/media/joker-diamond.326a309b8e2a520461bf.png",
     "static/media/spotifyApp.png": "/theJokerCompany/static/media/spotifyApp.ffbc8981176fca2d2b9a.png",
     "static/media/logo.jpeg": "/theJokerCompany/static/media/logo.e658b9ca54dbaac9d304.jpeg",
     "static/media/quizzical.png": "/theJokerCompany/static/media/quizzical.02fed2f1835e1e9b26d8.png",
     "static/media/fastapi-logo.png": "/theJokerCompany/static/media/fastapi-logo.5e4588713819991ad5d6.png",
     "static/media/fs-logo.JPG": "/theJokerCompany/static/media/fs-logo.3ed4f96e37bb01b460e4.JPG",
+    "static/media/joker-club.png": "/theJokerCompany/static/media/joker-club.fdb3a9aeed36bd138879.png",
     "static/media/knime_icon_132274.png": "/theJokerCompany/static/media/knime_icon_132274.036d2ab95a7c11d91ec6.png",
     "static/media/fsl-icon.jpeg": "/theJokerCompany/static/media/fsl-icon.89645bb4c5693a8057ac.jpeg",
+    "static/media/joker-spade.png": "/theJokerCompany/static/media/joker-spade.943e53bf0dbbba7a0ff7.png",
+    "static/media/joker-heart.png": "/theJokerCompany/static/media/joker-heart.b9b8f2b8f7e5dea0db77.png",
+    "static/media/joker-diamond.png": "/theJokerCompany/static/media/joker-diamond.c80972e1ca8d6c65714a.png",
     "static/media/jose.jpeg": "/theJokerCompany/static/media/jose.a634869e0bf530d9096f.jpeg",
     "index.html": "/theJokerCompany/index.html",
-    "main.7b75c81a.css.map": "/theJokerCompany/static/css/main.7b75c81a.css.map",
-    "main.1ce96e7e.js.map": "/theJokerCompany/static/js/main.1ce96e7e.js.map"
+    "main.df84ed9a.css.map": "/theJokerCompany/static/css/main.df84ed9a.css.map",
+    "main.3334c035.js.map": "/theJokerCompany/static/js/main.3334c035.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b75c81a.css",
-    "static/js/main.1ce96e7e.js"
+    "static/css/main.df84ed9a.css",
+    "static/js/main.3334c035.js"
   ]
 }
